@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour
 {
     [Header("Vida")]
-    public int maxHealth = 10;
+    public int maxHealth = 5;
     public int currentHealth;
 
     [Header("Invulnerabilidade")]
@@ -48,14 +48,19 @@ public class PlayerHealth : MonoBehaviour
             Vector2 knockbackDir = -playerController.LastMoveDirection;
             playerController.ApplyKnockback(knockbackDir, knockbackForce, knockbackDuration);
 
-            // Aqui pega a âncora do PlayerController.cs para disparar via Trigger na BlendTree2D a animação de receber dano.
             playerController.PlayTakeDamageAnimation();
         }
 
+        // NÃO TIRA ISSO PELO AMOR DE DEUS — O texto só vai aparecer quando o HP chega a 0
         if (currentHealth <= 0)
         {
             if (playerController != null)
                 playerController.Die();
+
+            GameOverUI gameOver = FindAnyObjectByType<GameOverUI>();
+            if (gameOver != null)
+                gameOver.ShowGameOver();
+
             return;
         }
     }

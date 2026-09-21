@@ -44,17 +44,29 @@ public class PlayerController : MonoBehaviour
     public float takeDamageDuration = 0.4f;
     public float unSheathDuration = 0.8f;
 
+    [Header("Efeitos Especiais")] // Usado para as animações Special1 e Special2.
+    public GameObject special1EffectPrefab;
+    public GameObject special2EffectPrefab;
+    public float specialEffectDuration = 1f;
+
+    [Header("Screen Shake")] // Exclusivo para o Special2. Isso aqui faz a tela sacudir, kkkkk
+    public float special2ShakeDuration = 0.3f;
+    public float special2ShakeMagnitude = 0.2f;
+
     [Header("Referências")]
     public Transform attackPoint;
-    public float attackRange = 1.2f;
-    public LayerMask enemyLayers; // Há partes do Foreground que o jogador passa e se esconde.
+    public float attackRange = 1.2f; // Alcance do dano feito pelo jogador.
+    // Há partes do Foreground que o jogador passa e se esconde.
+    // Isso aqui faz a chama independente da layer que esteja, dará dano ao jogador.
+    public LayerMask enemyLayers;
 
+    // Precisa ter isso para o jogador e outros elementos terem limites de movimentação no campo de batalha.
     private Rigidbody2D rb;
     private Animator anim;
     private SpriteRenderer sr;
 
-    private Vector2 moveInput;
-    private Vector2 lastMoveDirection = Vector2.right;
+    private Vector2 moveInput; // Entradas do Teclado para o jogador...
+    private Vector2 lastMoveDirection = Vector2.right; // O jogador inicia olhando pra direita.
 
     private bool isRunning;
     private bool isCrouching;
@@ -158,21 +170,33 @@ public class PlayerController : MonoBehaviour
     // É necessário deixar exclusivo essa parte, justamente para evitar equívocos.
     private void EvaluateTransitions()
     {
-        if (Input.GetKeyDown(KeyCode.Space)) { EnterJumpAttack(); return; }
+        if (Input.GetKeyDown(KeyCode.Space) && !isCrouching) { EnterJumpAttack(); return; }
+
         if (Input.GetKeyDown(KeyCode.F)) { EnterAttack(); return; }
-        if (Input.GetKeyDown(KeyCode.R)) { EnterQuickShot(); return; }
-        if (Input.GetKeyDown(KeyCode.V)) { EnterQuickSlide(); return; }
-        if (Input.GetKeyDown(KeyCode.Q)) { EnterScream(); return; }
+        if (Input.GetKeyDown(KeyCode.Y)) { EnterQuickShot(); return; }
+
+        // Trava pro QuickSlide. Ele só executa se eu estiver agachado me movimentando.
+        if (Input.GetKeyDown(KeyCode.V) && isCrouching && moveInput.magnitude > 0.1f)
+        {
+            EnterQuickSlide(); return;
+        }
+
+        // Travas de movimento (Mais atalho de comando) do Scream.
+        if (Input.GetKeyDown(KeyCode.Q) && moveInput.magnitude < 0.1f && !isCrouching && !isRunning)
+        {
+            EnterScream(); return;
+        }
+
         if (Input.GetKeyDown(KeyCode.G)) { EnterPummel(); return; }
 
-        if (Input.GetKeyDown(KeyCode.LeftControl) && moveInput.magnitude > 0.1f)
+        if (Input.GetKeyDown(KeyCode.E) && moveInput.magnitude > 0.1f)
         {
             EnterRolling(); return;
         }
 
         if (Input.GetKeyDown(KeyCode.Tab)) { EnterUnSheath(); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha1) && specialsLoaded) { EnterSpecial1(); return; }
-        if (Input.GetKeyDown(KeyCode.Alpha2) && specialsLoaded) { EnterSpecial2(); return; }
+        if (Input.GetKeyDown(KeyCode.R) && specialsLoaded) { EnterSpecial1(); return; }
+        if (Input.GetKeyDown(KeyCode.T) && specialsLoaded) { EnterSpecial2(); return; }
 
         if (isCrouching)
         {
@@ -275,14 +299,15 @@ public class PlayerController : MonoBehaviour
         DealDamageInFront(quickSlideDamage);
     }
 
-    // Animação feita para recarregar os speciais.
+    // Animação feita para recarregar os speciais também. Eu poderia trazer algo futuramente que aumente mais o dano do Ataque físico.
     // Scream está substituindo o UnSheath.
     private void EnterScream()
     {
         SetState(PlayerState.Scream);
         LockState(screamDuration);
+        StartGlow(Color.cyan, specialDuration);
         anim.SetTrigger("Scream");
-        DealDamageInFront(screamDamage);
+        StartCoroutine(LoadSpecialsAfterDelay());
     }
 
     // Ainda não inserido no Unity. Confira a sprite sheet para ver o que vai dar pra fazer...
@@ -309,13 +334,12 @@ public class PlayerController : MonoBehaviour
         SetState(PlayerState.Rolling);
         LockState(rollingDuration);
         isInvulnerable = true;
-        StartGlow(Color.cyan);
         anim.SetTrigger("Rolling");
         rb.linearVelocity = moveInput.normalized * rollForce;
     }
 
     // Animação de recarregar os ataques especiais.
-    // Animação não inserida, pois faz mais sentido o uso da animação Scream faz melhor pra um Melee.
+    // Animação ainda não inserida, pois faz mais sentido o uso da animação Scream ter um efeito melhor para um herói Melee.
     private void EnterUnSheath()
     {
         SetState(PlayerState.UnSheath);
@@ -336,9 +360,11 @@ public class PlayerController : MonoBehaviour
         SetState(PlayerState.Special1);
         LockState(specialDuration);
         specialsLoaded = false;
-        StartGlow(Color.green);
+        StartGlow(Color.purple, specialDuration);
         anim.SetTrigger("Special1");
         DealDamageInFront(specialDamage);
+
+        SpawnEffect(special1EffectPrefab); // Aqui eu posso fazer esse estado trazer alguma animação extra, como um AoE.
     }
 
     private void EnterSpecial2()
@@ -346,9 +372,14 @@ public class PlayerController : MonoBehaviour
         SetState(PlayerState.Special2);
         LockState(specialDuration);
         specialsLoaded = false;
-        StartGlow(Color.white);
+        StartGlow(Color.blue, specialDuration);
         anim.SetTrigger("Special2");
         DealDamageInFront(specialDamage);
+
+        SpawnEffect(special2EffectPrefab);
+
+        if (CameraShake.Instance != null)
+            CameraShake.Instance.Shake(special2ShakeDuration, special2ShakeMagnitude);
     }
 
     public void TakeDamage(int damage) 
@@ -421,10 +452,10 @@ public class PlayerController : MonoBehaviour
     }
 
     // Âncora para o jogador brilhar enquanto recebe dano. Tive que por isso aqui pra realmente funcionar.
-    private void StartGlow(Color color)
+    private void StartGlow(Color color, float duration)
     {
         if (glowRoutine != null) StopCoroutine(glowRoutine);
-        glowRoutine = StartCoroutine(GlowRoutine(color, 999f));
+        glowRoutine = StartCoroutine(GlowRoutine(color, duration));
     }
 
     private IEnumerator GlowRoutine(Color color, float duration)
@@ -442,8 +473,15 @@ public class PlayerController : MonoBehaviour
 
     public bool IsInvulnerable => isInvulnerable;
 
-    // Solução para ancorar a classe PlayerHealth.cs a esse código aqui, tornando aqui a matriz.
+    private void SpawnEffect(GameObject prefab)
+    {
+        if (prefab == null) return;
 
+        GameObject fx = Instantiate(prefab, transform.position, Quaternion.identity);
+        Destroy(fx, specialEffectDuration);
+    }
+
+    // Solução para ancorar a classe PlayerHealth.cs a esse código aqui, tornando aqui a matriz.
     public Vector2 LastMoveDirection => lastMoveDirection;
 
     public void ApplyKnockback(Vector2 direction, float force, float duration)

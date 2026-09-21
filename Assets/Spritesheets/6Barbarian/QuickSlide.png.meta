@@ -541,12 +541,12 @@ TextureImporter:
       name: QuickSlide_0
       rect:
         serializedVersion: 2
-        x: 59
-        y: 931
-        width: 46
-        height: 46
+        x: 0
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -563,12 +563,12 @@ TextureImporter:
       name: QuickSlide_1
       rect:
         serializedVersion: 2
-        x: 180
-        y: 932
-        width: 42
-        height: 54
+        x: 128
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -585,12 +585,12 @@ TextureImporter:
       name: QuickSlide_2
       rect:
         serializedVersion: 2
-        x: 301
-        y: 934
-        width: 45
-        height: 50
+        x: 256
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -607,12 +607,12 @@ TextureImporter:
       name: QuickSlide_3
       rect:
         serializedVersion: 2
-        x: 428
-        y: 971
-        width: 20
-        height: 13
+        x: 384
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -629,12 +629,12 @@ TextureImporter:
       name: QuickSlide_4
       rect:
         serializedVersion: 2
-        x: 431
-        y: 934
-        width: 36
-        height: 40
+        x: 512
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -651,12 +651,12 @@ TextureImporter:
       name: QuickSlide_5
       rect:
         serializedVersion: 2
-        x: 561
-        y: 933
-        width: 36
-        height: 47
+        x: 640
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -673,12 +673,12 @@ TextureImporter:
       name: QuickSlide_6
       rect:
         serializedVersion: 2
-        x: 687
-        y: 930
-        width: 34
-        height: 44
+        x: 768
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -695,12 +695,12 @@ TextureImporter:
       name: QuickSlide_7
       rect:
         serializedVersion: 2
-        x: 1061
-        y: 929
-        width: 52
-        height: 42
+        x: 896
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -717,12 +717,12 @@ TextureImporter:
       name: QuickSlide_8
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 921
-        width: 45
-        height: 52
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -739,12 +739,12 @@ TextureImporter:
       name: QuickSlide_9
       rect:
         serializedVersion: 2
-        x: 1328
-        y: 936
-        width: 44
-        height: 39
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -761,12 +761,12 @@ TextureImporter:
       name: QuickSlide_10
       rect:
         serializedVersion: 2
-        x: 1455
-        y: 937
-        width: 38
-        height: 59
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -783,12 +783,12 @@ TextureImporter:
       name: QuickSlide_11
       rect:
         serializedVersion: 2
-        x: 1581
-        y: 922
-        width: 33
-        height: 60
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -805,12 +805,12 @@ TextureImporter:
       name: QuickSlide_12
       rect:
         serializedVersion: 2
-        x: 1713
-        y: 930
-        width: 31
-        height: 47
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -827,12 +827,12 @@ TextureImporter:
       name: QuickSlide_13
       rect:
         serializedVersion: 2
-        x: 1832
-        y: 932
-        width: 42
-        height: 54
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -849,12 +849,12 @@ TextureImporter:
       name: QuickSlide_14
       rect:
         serializedVersion: 2
-        x: 814
-        y: 930
-        width: 37
-        height: 39
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -871,12 +871,12 @@ TextureImporter:
       name: QuickSlide_15
       rect:
         serializedVersion: 2
-        x: 933
-        y: 930
-        width: 54
-        height: 38
+        x: 0
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -893,12 +893,12 @@ TextureImporter:
       name: QuickSlide_16
       rect:
         serializedVersion: 2
-        x: 1370
-        y: 944
-        width: 15
-        height: 15
+        x: 128
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -915,12 +915,12 @@ TextureImporter:
       name: QuickSlide_17
       rect:
         serializedVersion: 2
-        x: 938
-        y: 929
-        width: 16
-        height: 10
+        x: 256
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -937,12 +937,12 @@ TextureImporter:
       name: QuickSlide_18
       rect:
         serializedVersion: 2
-        x: 1224
-        y: 913
-        width: 15
-        height: 12
+        x: 384
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -959,12 +959,12 @@ TextureImporter:
       name: QuickSlide_19
       rect:
         serializedVersion: 2
-        x: 179
-        y: 798
-        width: 35
-        height: 59
+        x: 512
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -981,12 +981,12 @@ TextureImporter:
       name: QuickSlide_20
       rect:
         serializedVersion: 2
-        x: 303
-        y: 802
-        width: 39
-        height: 50
+        x: 640
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1003,12 +1003,12 @@ TextureImporter:
       name: QuickSlide_21
       rect:
         serializedVersion: 2
-        x: 305
-        y: 849
-        width: 17
-        height: 14
+        x: 768
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1025,12 +1025,12 @@ TextureImporter:
       name: QuickSlide_22
       rect:
         serializedVersion: 2
-        x: 431
-        y: 845
-        width: 17
-        height: 21
+        x: 896
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1047,12 +1047,12 @@ TextureImporter:
       name: QuickSlide_23
       rect:
         serializedVersion: 2
-        x: 559
-        y: 801
-        width: 34
-        height: 58
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1069,12 +1069,12 @@ TextureImporter:
       name: QuickSlide_24
       rect:
         serializedVersion: 2
-        x: 689
-        y: 802
-        width: 32
-        height: 52
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1091,12 +1091,12 @@ TextureImporter:
       name: QuickSlide_25
       rect:
         serializedVersion: 2
-        x: 815
-        y: 801
-        width: 34
-        height: 50
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1113,12 +1113,12 @@ TextureImporter:
       name: QuickSlide_26
       rect:
         serializedVersion: 2
-        x: 933
-        y: 795
-        width: 44
-        height: 55
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1135,12 +1135,12 @@ TextureImporter:
       name: QuickSlide_27
       rect:
         serializedVersion: 2
-        x: 1465
-        y: 803
-        width: 42
-        height: 61
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1157,12 +1157,12 @@ TextureImporter:
       name: QuickSlide_28
       rect:
         serializedVersion: 2
-        x: 1572
-        y: 803
-        width: 49
-        height: 50
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1179,12 +1179,12 @@ TextureImporter:
       name: QuickSlide_29
       rect:
         serializedVersion: 2
-        x: 1713
-        y: 785
-        width: 31
-        height: 66
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1201,12 +1201,12 @@ TextureImporter:
       name: QuickSlide_30
       rect:
         serializedVersion: 2
-        x: 1831
-        y: 798
-        width: 35
-        height: 59
+        x: 0
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1223,12 +1223,12 @@ TextureImporter:
       name: QuickSlide_31
       rect:
         serializedVersion: 2
-        x: 59
-        y: 790
-        width: 32
-        height: 54
+        x: 128
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1245,12 +1245,12 @@ TextureImporter:
       name: QuickSlide_32
       rect:
         serializedVersion: 2
-        x: 432
-        y: 805
-        width: 32
-        height: 42
+        x: 256
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1267,12 +1267,12 @@ TextureImporter:
       name: QuickSlide_33
       rect:
         serializedVersion: 2
-        x: 1062
-        y: 797
-        width: 46
-        height: 51
+        x: 384
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1289,12 +1289,12 @@ TextureImporter:
       name: QuickSlide_34
       rect:
         serializedVersion: 2
-        x: 1194
-        y: 794
-        width: 45
-        height: 47
+        x: 512
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1311,12 +1311,12 @@ TextureImporter:
       name: QuickSlide_35
       rect:
         serializedVersion: 2
-        x: 1339
-        y: 778
-        width: 32
-        height: 65
+        x: 640
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1333,12 +1333,12 @@ TextureImporter:
       name: QuickSlide_36
       rect:
         serializedVersion: 2
-        x: 1197
-        y: 786
-        width: 19
-        height: 11
+        x: 768
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1355,12 +1355,12 @@ TextureImporter:
       name: QuickSlide_37
       rect:
         serializedVersion: 2
-        x: 180
-        y: 666
-        width: 25
-        height: 65
+        x: 896
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1377,12 +1377,12 @@ TextureImporter:
       name: QuickSlide_38
       rect:
         serializedVersion: 2
-        x: 309
-        y: 669
-        width: 26
-        height: 71
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1399,12 +1399,12 @@ TextureImporter:
       name: QuickSlide_39
       rect:
         serializedVersion: 2
-        x: 437
-        y: 673
-        width: 25
-        height: 70
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1421,12 +1421,12 @@ TextureImporter:
       name: QuickSlide_40
       rect:
         serializedVersion: 2
-        x: 564
-        y: 672
-        width: 27
-        height: 64
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1443,12 +1443,12 @@ TextureImporter:
       name: QuickSlide_41
       rect:
         serializedVersion: 2
-        x: 687
-        y: 675
-        width: 31
-        height: 57
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1465,12 +1465,12 @@ TextureImporter:
       name: QuickSlide_42
       rect:
         serializedVersion: 2
-        x: 815
-        y: 674
-        width: 30
-        height: 58
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1487,12 +1487,12 @@ TextureImporter:
       name: QuickSlide_43
       rect:
         serializedVersion: 2
-        x: 944
-        y: 669
-        width: 27
-        height: 49
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1509,12 +1509,12 @@ TextureImporter:
       name: QuickSlide_44
       rect:
         serializedVersion: 2
-        x: 946
-        y: 717
-        width: 14
-        height: 16
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1531,12 +1531,12 @@ TextureImporter:
       name: QuickSlide_45
       rect:
         serializedVersion: 2
-        x: 1073
-        y: 670
-        width: 26
-        height: 47
+        x: 0
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1553,12 +1553,12 @@ TextureImporter:
       name: QuickSlide_46
       rect:
         serializedVersion: 2
-        x: 1075
-        y: 716
-        width: 12
-        height: 15
+        x: 128
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1575,12 +1575,12 @@ TextureImporter:
       name: QuickSlide_47
       rect:
         serializedVersion: 2
-        x: 1467
-        y: 669
-        width: 50
-        height: 50
+        x: 256
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1597,12 +1597,12 @@ TextureImporter:
       name: QuickSlide_48
       rect:
         serializedVersion: 2
-        x: 1575
-        y: 673
-        width: 41
-        height: 55
+        x: 384
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1619,12 +1619,12 @@ TextureImporter:
       name: QuickSlide_49
       rect:
         serializedVersion: 2
-        x: 1701
-        y: 665
-        width: 39
-        height: 59
+        x: 512
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1641,12 +1641,12 @@ TextureImporter:
       name: QuickSlide_50
       rect:
         serializedVersion: 2
-        x: 1832
-        y: 666
-        width: 25
-        height: 65
+        x: 640
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1663,12 +1663,12 @@ TextureImporter:
       name: QuickSlide_51
       rect:
         serializedVersion: 2
-        x: 51
-        y: 657
-        width: 23
-        height: 59
+        x: 768
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1685,12 +1685,12 @@ TextureImporter:
       name: QuickSlide_52
       rect:
         serializedVersion: 2
-        x: 1178
-        y: 667
-        width: 51
-        height: 45
+        x: 896
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1707,12 +1707,12 @@ TextureImporter:
       name: QuickSlide_53
       rect:
         serializedVersion: 2
-        x: 1321
-        y: 651
-        width: 41
-        height: 61
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1729,12 +1729,12 @@ TextureImporter:
       name: QuickSlide_54
       rect:
         serializedVersion: 2
-        x: 172
-        y: 544
-        width: 31
-        height: 60
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1751,12 +1751,12 @@ TextureImporter:
       name: QuickSlide_55
       rect:
         serializedVersion: 2
-        x: 307
-        y: 543
-        width: 27
-        height: 67
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1773,12 +1773,12 @@ TextureImporter:
       name: QuickSlide_56
       rect:
         serializedVersion: 2
-        x: 438
-        y: 548
-        width: 24
-        height: 50
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1795,12 +1795,12 @@ TextureImporter:
       name: QuickSlide_57
       rect:
         serializedVersion: 2
-        x: 453
-        y: 597
-        width: 11
-        height: 14
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1817,12 +1817,12 @@ TextureImporter:
       name: QuickSlide_58
       rect:
         serializedVersion: 2
-        x: 560
-        y: 547
-        width: 30
-        height: 60
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1839,12 +1839,12 @@ TextureImporter:
       name: QuickSlide_59
       rect:
         serializedVersion: 2
-        x: 690
-        y: 547
-        width: 27
-        height: 57
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1861,12 +1861,12 @@ TextureImporter:
       name: QuickSlide_60
       rect:
         serializedVersion: 2
-        x: 816
-        y: 548
-        width: 30
-        height: 56
+        x: 0
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1883,12 +1883,12 @@ TextureImporter:
       name: QuickSlide_61
       rect:
         serializedVersion: 2
-        x: 935
-        y: 547
-        width: 43
-        height: 57
+        x: 128
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1905,12 +1905,12 @@ TextureImporter:
       name: QuickSlide_62
       rect:
         serializedVersion: 2
-        x: 1088
-        y: 587
-        width: 17
-        height: 16
+        x: 256
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1927,12 +1927,12 @@ TextureImporter:
       name: QuickSlide_63
       rect:
         serializedVersion: 2
-        x: 1188
-        y: 580
-        width: 14
-        height: 20
+        x: 384
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1949,12 +1949,12 @@ TextureImporter:
       name: QuickSlide_64
       rect:
         serializedVersion: 2
-        x: 1588
-        y: 544
-        width: 32
-        height: 64
+        x: 512
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1971,12 +1971,12 @@ TextureImporter:
       name: QuickSlide_65
       rect:
         serializedVersion: 2
-        x: 1824
-        y: 544
-        width: 31
-        height: 60
+        x: 640
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1993,12 +1993,12 @@ TextureImporter:
       name: QuickSlide_66
       rect:
         serializedVersion: 2
-        x: 35
-        y: 540
-        width: 39
-        height: 52
+        x: 768
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2015,12 +2015,12 @@ TextureImporter:
       name: QuickSlide_67
       rect:
         serializedVersion: 2
-        x: 1067
-        y: 545
-        width: 39
-        height: 46
+        x: 896
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2037,12 +2037,12 @@ TextureImporter:
       name: QuickSlide_68
       rect:
         serializedVersion: 2
-        x: 1180
-        y: 543
-        width: 56
-        height: 42
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2059,12 +2059,12 @@ TextureImporter:
       name: QuickSlide_69
       rect:
         serializedVersion: 2
-        x: 1296
-        y: 541
-        width: 69
-        height: 43
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2081,12 +2081,12 @@ TextureImporter:
       name: QuickSlide_70
       rect:
         serializedVersion: 2
-        x: 1460
-        y: 535
-        width: 49
-        height: 51
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2103,12 +2103,12 @@ TextureImporter:
       name: QuickSlide_71
       rect:
         serializedVersion: 2
-        x: 1692
-        y: 547
-        width: 49
-        height: 49
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2125,12 +2125,12 @@ TextureImporter:
       name: QuickSlide_72
       rect:
         serializedVersion: 2
-        x: 28
-        y: 424
-        width: 46
-        height: 51
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2147,12 +2147,12 @@ TextureImporter:
       name: QuickSlide_73
       rect:
         serializedVersion: 2
-        x: 166
-        y: 422
-        width: 42
-        height: 56
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2169,12 +2169,12 @@ TextureImporter:
       name: QuickSlide_74
       rect:
         serializedVersion: 2
-        x: 300
-        y: 420
-        width: 43
-        height: 54
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2191,12 +2191,12 @@ TextureImporter:
       name: QuickSlide_75
       rect:
         serializedVersion: 2
-        x: 434
-        y: 421
-        width: 38
-        height: 53
+        x: 0
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2213,12 +2213,12 @@ TextureImporter:
       name: QuickSlide_76
       rect:
         serializedVersion: 2
-        x: 560
-        y: 421
-        width: 35
-        height: 52
+        x: 128
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2235,12 +2235,12 @@ TextureImporter:
       name: QuickSlide_77
       rect:
         serializedVersion: 2
-        x: 692
-        y: 422
-        width: 33
-        height: 48
+        x: 256
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2257,12 +2257,12 @@ TextureImporter:
       name: QuickSlide_78
       rect:
         serializedVersion: 2
-        x: 818
-        y: 423
-        width: 37
-        height: 46
+        x: 384
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2279,12 +2279,12 @@ TextureImporter:
       name: QuickSlide_79
       rect:
         serializedVersion: 2
-        x: 1206
-        y: 467
-        width: 14
-        height: 14
+        x: 512
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2301,12 +2301,12 @@ TextureImporter:
       name: QuickSlide_80
       rect:
         serializedVersion: 2
-        x: 1207
-        y: 460
-        width: 6
-        height: 8
+        x: 640
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2323,12 +2323,12 @@ TextureImporter:
       name: QuickSlide_81
       rect:
         serializedVersion: 2
-        x: 1297
-        y: 419
-        width: 67
-        height: 48
+        x: 768
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2345,12 +2345,12 @@ TextureImporter:
       name: QuickSlide_82
       rect:
         serializedVersion: 2
-        x: 1585
-        y: 420
-        width: 39
-        height: 56
+        x: 896
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2367,12 +2367,12 @@ TextureImporter:
       name: QuickSlide_83
       rect:
         serializedVersion: 2
-        x: 1704
-        y: 423
-        width: 43
-        height: 56
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2389,12 +2389,12 @@ TextureImporter:
       name: QuickSlide_84
       rect:
         serializedVersion: 2
-        x: 1818
-        y: 422
-        width: 42
-        height: 56
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2411,12 +2411,12 @@ TextureImporter:
       name: QuickSlide_85
       rect:
         serializedVersion: 2
-        x: 937
-        y: 424
-        width: 54
-        height: 42
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2433,12 +2433,12 @@ TextureImporter:
       name: QuickSlide_86
       rect:
         serializedVersion: 2
-        x: 1067
-        y: 424
-        width: 52
-        height: 42
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2455,12 +2455,12 @@ TextureImporter:
       name: QuickSlide_87
       rect:
         serializedVersion: 2
-        x: 1191
-        y: 422
-        width: 45
-        height: 40
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2477,12 +2477,12 @@ TextureImporter:
       name: QuickSlide_88
       rect:
         serializedVersion: 2
-        x: 1452
-        y: 399
-        width: 41
-        height: 58
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2499,12 +2499,12 @@ TextureImporter:
       name: QuickSlide_89
       rect:
         serializedVersion: 2
-        x: 43
-        y: 297
-        width: 31
-        height: 64
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2521,12 +2521,12 @@ TextureImporter:
       name: QuickSlide_90
       rect:
         serializedVersion: 2
-        x: 175
-        y: 297
-        width: 34
-        height: 53
+        x: 0
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2543,12 +2543,12 @@ TextureImporter:
       name: QuickSlide_91
       rect:
         serializedVersion: 2
-        x: 303
-        y: 292
-        width: 38
-        height: 48
+        x: 128
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2565,12 +2565,12 @@ TextureImporter:
       name: QuickSlide_92
       rect:
         serializedVersion: 2
-        x: 1197
-        y: 289
-        width: 45
-        height: 60
+        x: 256
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2587,12 +2587,12 @@ TextureImporter:
       name: QuickSlide_93
       rect:
         serializedVersion: 2
-        x: 1322
-        y: 288
-        width: 31
-        height: 52
+        x: 384
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2609,12 +2609,12 @@ TextureImporter:
       name: QuickSlide_94
       rect:
         serializedVersion: 2
-        x: 1330
-        y: 339
-        width: 11
-        height: 14
+        x: 512
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2631,12 +2631,12 @@ TextureImporter:
       name: QuickSlide_95
       rect:
         serializedVersion: 2
-        x: 1717
-        y: 296
-        width: 30
-        height: 56
+        x: 640
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2653,12 +2653,12 @@ TextureImporter:
       name: QuickSlide_96
       rect:
         serializedVersion: 2
-        x: 1827
-        y: 297
-        width: 34
-        height: 53
+        x: 768
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2675,12 +2675,12 @@ TextureImporter:
       name: QuickSlide_97
       rect:
         serializedVersion: 2
-        x: 437
-        y: 293
-        width: 33
-        height: 43
+        x: 896
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2697,12 +2697,12 @@ TextureImporter:
       name: QuickSlide_98
       rect:
         serializedVersion: 2
-        x: 564
-        y: 295
-        width: 32
-        height: 43
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2719,12 +2719,12 @@ TextureImporter:
       name: QuickSlide_99
       rect:
         serializedVersion: 2
-        x: 691
-        y: 295
-        width: 32
-        height: 39
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2741,12 +2741,12 @@ TextureImporter:
       name: QuickSlide_100
       rect:
         serializedVersion: 2
-        x: 820
-        y: 295
-        width: 34
-        height: 37
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2763,12 +2763,12 @@ TextureImporter:
       name: QuickSlide_101
       rect:
         serializedVersion: 2
-        x: 948
-        y: 293
-        width: 41
-        height: 42
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2785,12 +2785,12 @@ TextureImporter:
       name: QuickSlide_102
       rect:
         serializedVersion: 2
-        x: 975
-        y: 314
-        width: 16
-        height: 11
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2807,12 +2807,12 @@ TextureImporter:
       name: QuickSlide_103
       rect:
         serializedVersion: 2
-        x: 1073
-        y: 291
-        width: 34
-        height: 46
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2829,12 +2829,12 @@ TextureImporter:
       name: QuickSlide_104
       rect:
         serializedVersion: 2
-        x: 1104
-        y: 313
-        width: 15
-        height: 13
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2851,12 +2851,12 @@ TextureImporter:
       name: QuickSlide_105
       rect:
         serializedVersion: 2
-        x: 1443
-        y: 279
-        width: 40
-        height: 55
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2873,12 +2873,12 @@ TextureImporter:
       name: QuickSlide_106
       rect:
         serializedVersion: 2
-        x: 1584
-        y: 292
-        width: 49
-        height: 44
+        x: 128
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2895,12 +2895,12 @@ TextureImporter:
       name: QuickSlide_107
       rect:
         serializedVersion: 2
-        x: 1105
-        y: 294
-        width: 12
-        height: 13
+        x: 256
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2917,12 +2917,12 @@ TextureImporter:
       name: QuickSlide_108
       rect:
         serializedVersion: 2
-        x: 59
-        y: 169
-        width: 23
-        height: 51
+        x: 384
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2939,12 +2939,12 @@ TextureImporter:
       name: QuickSlide_109
       rect:
         serializedVersion: 2
-        x: 70
-        y: 219
-        width: 7
-        height: 16
+        x: 512
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2961,12 +2961,12 @@ TextureImporter:
       name: QuickSlide_110
       rect:
         serializedVersion: 2
-        x: 184
-        y: 165
-        width: 25
-        height: 57
+        x: 640
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2983,12 +2983,12 @@ TextureImporter:
       name: QuickSlide_111
       rect:
         serializedVersion: 2
-        x: 1353
-        y: 211
-        width: 16
-        height: 13
+        x: 768
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3005,12 +3005,12 @@ TextureImporter:
       name: QuickSlide_112
       rect:
         serializedVersion: 2
-        x: 1836
-        y: 165
-        width: 25
-        height: 57
+        x: 896
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3027,12 +3027,12 @@ TextureImporter:
       name: QuickSlide_113
       rect:
         serializedVersion: 2
-        x: 310
-        y: 158
-        width: 25
-        height: 59
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3049,12 +3049,12 @@ TextureImporter:
       name: QuickSlide_114
       rect:
         serializedVersion: 2
-        x: 439
-        y: 158
-        width: 24
-        height: 52
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3071,12 +3071,12 @@ TextureImporter:
       name: QuickSlide_115
       rect:
         serializedVersion: 2
-        x: 566
-        y: 164
-        width: 26
-        height: 43
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3093,12 +3093,12 @@ TextureImporter:
       name: QuickSlide_116
       rect:
         serializedVersion: 2
-        x: 695
-        y: 164
-        width: 30
-        height: 37
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3115,12 +3115,12 @@ TextureImporter:
       name: QuickSlide_117
       rect:
         serializedVersion: 2
-        x: 824
-        y: 162
-        width: 29
-        height: 40
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3137,12 +3137,12 @@ TextureImporter:
       name: QuickSlide_118
       rect:
         serializedVersion: 2
-        x: 954
-        y: 156
-        width: 26
-        height: 51
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3159,12 +3159,12 @@ TextureImporter:
       name: QuickSlide_119
       rect:
         serializedVersion: 2
-        x: 1082
-        y: 156
-        width: 26
-        height: 54
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3177,495 +3177,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: QuickSlide_120
-      rect:
-        serializedVersion: 2
-        x: 1207
-        y: 161
-        width: 52
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ab716123d4d2f95b0800000000000000
-      internalID: -5359515221971560518
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: QuickSlide_121
-      rect:
-        serializedVersion: 2
-        x: 1331
-        y: 161
-        width: 41
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 491f541e7a96bf7f0800000000000000
-      internalID: -577751957427064428
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: QuickSlide_122
-      rect:
-        serializedVersion: 2
-        x: 1432
-        y: 171
-        width: 15
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5a659ed4f10cf1040800000000000000
-      internalID: 4620622983389075109
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: QuickSlide_123
-      rect:
-        serializedVersion: 2
-        x: 1434
-        y: 162
-        width: 48
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2a54665dd9dc427c0800000000000000
-      internalID: -4096923683226499678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: QuickSlide_124
-      rect:
-        serializedVersion: 2
-        x: 1588
-        y: 163
-        width: 42
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2f03542dcbdbfd8e0800000000000000
-      internalID: -1666404718424542990
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: QuickSlide_125
-      rect:
-        serializedVersion: 2
-        x: 1721
-        y: 166
-        width: 39
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2bb126a94e59b1a60800000000000000
-      internalID: 7645869601466751922
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: QuickSlide_126
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 40
-        width: 40
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3896497576cca6a60800000000000000
-      internalID: 7668166059774732675
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: QuickSlide_127
-      rect:
-        serializedVersion: 2
-        x: 185
-        y: 37
-        width: 31
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 19bd5e53d8553d060800000000000000
-      internalID: 6977014312710036369
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: QuickSlide_128
-      rect:
-        serializedVersion: 2
-        x: 310
-        y: 32
-        width: 28
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3a18da95f42c71d10800000000000000
-      internalID: 2096357797627003299
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: QuickSlide_129
-      rect:
-        serializedVersion: 2
-        x: 436
-        y: 32
-        width: 27
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7d8010a75360cdf40800000000000000
-      internalID: 5754481250622572759
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: QuickSlide_130
-      rect:
-        serializedVersion: 2
-        x: 566
-        y: 33
-        width: 30
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ec15eaba200315b60800000000000000
-      internalID: 7733014823200248270
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: QuickSlide_131
-      rect:
-        serializedVersion: 2
-        x: 695
-        y: 36
-        width: 28
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 60d681fde9f38d0d0800000000000000
-      internalID: -3397895967270736634
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: QuickSlide_132
-      rect:
-        serializedVersion: 2
-        x: 822
-        y: 34
-        width: 31
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6f8a62c7ecf90b5f0800000000000000
-      internalID: -742918229321144074
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: QuickSlide_133
-      rect:
-        serializedVersion: 2
-        x: 948
-        y: 27
-        width: 40
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5b8384a932b856450800000000000000
-      internalID: 6081419856862263477
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: QuickSlide_134
-      rect:
-        serializedVersion: 2
-        x: 1074
-        y: 33
-        width: 39
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 20c13bf65c27e9bd0800000000000000
-      internalID: -2621531740774917118
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: QuickSlide_135
-      rect:
-        serializedVersion: 2
-        x: 1200
-        y: 31
-        width: 57
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f3c1df3982398d380800000000000000
-      internalID: -8946238857280676801
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: QuickSlide_136
-      rect:
-        serializedVersion: 2
-        x: 1327
-        y: 41
-        width: 69
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eac42a05ffe278090800000000000000
-      internalID: -8032399736287638354
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: QuickSlide_137
-      rect:
-        serializedVersion: 2
-        x: 1439
-        y: 42
-        width: 50
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c5aecba6c4f7dcad0800000000000000
-      internalID: -2680346237030569380
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: QuickSlide_138
-      rect:
-        serializedVersion: 2
-        x: 1584
-        y: 26
-        width: 33
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ef7f35dc6b9bd39e0800000000000000
-      internalID: -1639950494512973826
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: QuickSlide_139
-      rect:
-        serializedVersion: 2
-        x: 1719
-        y: 36
-        width: 50
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 51a6afb5644076d20800000000000000
-      internalID: 3271588354545314325
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: QuickSlide_140
-      rect:
-        serializedVersion: 2
-        x: 1837
-        y: 37
-        width: 31
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4a551b3826a371ea0800000000000000
-      internalID: -5902184591855102556
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: QuickSlide_141
-      rect:
-        serializedVersion: 2
-        x: 1080
-        y: 27
-        width: 16
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2a56f1819c9db8b60800000000000000
-      internalID: 7749527041537435042
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: fcba7bdf71543a544862e1ca9dec1636
     internalID: 0
     vertices: []
     indices: 
@@ -3673,7 +3189,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       QuickSlide_0: 3805319788522855628
       QuickSlide_1: 9040340127265746961
@@ -3700,30 +3218,8 @@ TextureImporter:
       QuickSlide_118: -5191557284901164804
       QuickSlide_119: 5732774223848374264
       QuickSlide_12: 1970269082275061093
-      QuickSlide_120: -5359515221971560518
-      QuickSlide_121: -577751957427064428
-      QuickSlide_122: 4620622983389075109
-      QuickSlide_123: -4096923683226499678
-      QuickSlide_124: -1666404718424542990
-      QuickSlide_125: 7645869601466751922
-      QuickSlide_126: 7668166059774732675
-      QuickSlide_127: 6977014312710036369
-      QuickSlide_128: 2096357797627003299
-      QuickSlide_129: 5754481250622572759
       QuickSlide_13: -5664602296151714949
-      QuickSlide_130: 7733014823200248270
-      QuickSlide_131: -3397895967270736634
-      QuickSlide_132: -742918229321144074
-      QuickSlide_133: 6081419856862263477
-      QuickSlide_134: -2621531740774917118
-      QuickSlide_135: -8946238857280676801
-      QuickSlide_136: -8032399736287638354
-      QuickSlide_137: -2680346237030569380
-      QuickSlide_138: -1639950494512973826
-      QuickSlide_139: 3271588354545314325
       QuickSlide_14: 7771033189579246211
-      QuickSlide_140: -5902184591855102556
-      QuickSlide_141: 7749527041537435042
       QuickSlide_15: -815716039256217628
       QuickSlide_16: 2402700175956448808
       QuickSlide_17: -7792193815068007161

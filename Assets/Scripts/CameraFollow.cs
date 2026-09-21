@@ -2,15 +2,15 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    [Header("Player")]
-    public Transform target; // O target é o alvo da entidade que a câmera dará foco. No caso, será o jogador.
+    [Header("Alvo")]
+    public Transform target;
 
     [Header("Suavização")]
     [Tooltip("Quanto maior, mais rápido a câmera alcança o alvo. 0 = instantâneo.")]
     public float smoothSpeed = 5f;
 
     [Header("Offset")]
-    [Tooltip("Camera2D.")] // Como se trata de um projeto 2D, não há o mínimo sentido termos a variável Z da câmera em execução. Deixei em -10f para anular ela.
+    [Tooltip("Deslocamento da câmera em relação ao alvo. Use Z = -10 pra 2D.")]
     public Vector3 offset = new Vector3(0f, 0f, -10f);
 
     [Header("Limites (opcional)")]
@@ -22,25 +22,28 @@ public class CameraFollow : MonoBehaviour
     {
         if (target == null) return;
 
-        // Posição desejada da câmera
+        // Posição desejada da câmera que precisa ser horizontal.
         Vector3 desiredPosition = target.position + offset;
 
-        // Limites aplicados se estiver ativado na câmera. Não use no jogador, não faz sentido.
+        // Aplica limites se estiver ativado
         if (useBounds)
         {
             desiredPosition.x = Mathf.Clamp(desiredPosition.x, minBounds.x, maxBounds.x);
             desiredPosition.y = Mathf.Clamp(desiredPosition.y, minBounds.y, maxBounds.y);
         }
 
-        // Mantém o Z do offset fixo
         desiredPosition.z = offset.z;
 
-        // Suaviza o movimento para evitar problemas de visão ou enjôo.
+        // Suaviza o movimento para ninguém ter um ataque epilético...
         Vector3 smoothedPosition = Vector3.Lerp(
-            transform.position,
+            transform.position - (CameraShake.Instance != null ? CameraShake.Instance.CurrentOffset : Vector3.zero),
             desiredPosition,
             smoothSpeed * Time.deltaTime
         );
+
+        // Aplica o offset do shake por cima
+        if (CameraShake.Instance != null)
+            smoothedPosition += CameraShake.Instance.CurrentOffset;
 
         transform.position = smoothedPosition;
     }
