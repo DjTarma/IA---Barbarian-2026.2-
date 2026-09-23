@@ -339,6 +339,7 @@ GameObject:
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
   - component: {fileID: 519420033}
+  - component: {fileID: 519420034}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -485,6 +486,18 @@ MonoBehaviour:
   useBounds: 0
   minBounds: {x: 0, y: 0}
   maxBounds: {x: 0, y: 0}
+--- !u!114 &519420034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05b698d17071c1e4dad25ef684d502a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraShake
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1528,13 +1541,13 @@ MonoBehaviour:
   crouchSpeed: 3
   rollForce: 3
   JumpForce: 12
+  kickSpeed: 3
   attackDamage: 5
   quickShotDamage: 10
   quickSlideDamage: 10
   specialDamage: 20
   screamDamage: 10
-  maxHealth: 5
-  currentHealth: 5
+  kickDamage: 3
   attackDuration: 0.4
   quickShotDuration: 0.5
   quickSlideDuration: 0.5
@@ -1547,11 +1560,12 @@ MonoBehaviour:
   specialDuration: 3
   takeDamageDuration: 0.4
   unSheathDuration: 0.8
+  kickDuration: 0.4
   special1EffectPrefab: {fileID: 0}
   special2EffectPrefab: {fileID: 0}
   specialEffectDuration: 1
-  special2ShakeDuration: 0.3
-  special2ShakeMagnitude: 0.2
+  special2ShakeDuration: 1
+  special2ShakeMagnitude: 1
   attackPoint: {fileID: 0}
   attackRange: 1.2
   enemyLayers:

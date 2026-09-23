@@ -1,412 +1,445 @@
 fileFormatVersion: 2
-guid: 0fc206aaa91d26441a1583b57d5b4ae5
+guid: a7e9a6c250f8c6f488be9c63e9afd5b1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4875550202295362856
-    second: Kick_0
+      213: -8298685195069441819
+    second: Special2_0
   - first:
-      213: 7382034801322492081
-    second: Kick_1
+      213: -1696729246735065327
+    second: Special2_1
   - first:
-      213: 3640076384215072705
-    second: Kick_2
+      213: -1177770263980298458
+    second: Special2_2
   - first:
-      213: -5744143365864270874
-    second: Kick_3
+      213: 1032067396587285794
+    second: Special2_3
   - first:
-      213: -7484144780416948975
-    second: Kick_4
+      213: -9159893258833561376
+    second: Special2_4
   - first:
-      213: -4347578519165869139
-    second: Kick_5
+      213: 3588063796271022305
+    second: Special2_5
   - first:
-      213: -6500147261662118090
-    second: Kick_6
+      213: -4804316998213659337
+    second: Special2_6
   - first:
-      213: -4513392813365026625
-    second: Kick_7
+      213: -1767751816361314575
+    second: Special2_7
   - first:
-      213: 2373574331434663591
-    second: Kick_8
+      213: -7130678533447561262
+    second: Special2_8
   - first:
-      213: -694122209341000648
-    second: Kick_9
+      213: 519951430950448383
+    second: Special2_9
   - first:
-      213: -3130122043592584391
-    second: Kick_10
+      213: -7194763331755007088
+    second: Special2_10
   - first:
-      213: -1184338038214779424
-    second: Kick_11
+      213: 554742850918253206
+    second: Special2_11
   - first:
-      213: -6278379700893849238
-    second: Kick_12
+      213: 7454194865069467775
+    second: Special2_12
   - first:
-      213: -2329759627579760923
-    second: Kick_13
+      213: -6806556548993896902
+    second: Special2_13
   - first:
-      213: -8731451342485663347
-    second: Kick_14
+      213: 701780430659607965
+    second: Special2_14
   - first:
-      213: 1758862618882075845
-    second: Kick_15
+      213: 3456033996670821942
+    second: Special2_15
   - first:
-      213: -4739176893017749648
-    second: Kick_16
+      213: 7684853331597899148
+    second: Special2_16
   - first:
-      213: -7587724472594246672
-    second: Kick_17
+      213: -8367947988998266055
+    second: Special2_17
   - first:
-      213: 3925823642134178883
-    second: Kick_18
+      213: 2697516593447761044
+    second: Special2_18
   - first:
-      213: -7424675351201738324
-    second: Kick_19
+      213: -2516231077128870881
+    second: Special2_19
   - first:
-      213: 2940217539679394119
-    second: Kick_20
+      213: 147319670599869846
+    second: Special2_20
   - first:
-      213: -4167057831420378153
-    second: Kick_21
+      213: -8804723356967403588
+    second: Special2_21
   - first:
-      213: -2252206954677251430
-    second: Kick_22
+      213: 7279620984182690018
+    second: Special2_22
   - first:
-      213: -3278472320177172867
-    second: Kick_23
+      213: 8525734669725030621
+    second: Special2_23
   - first:
-      213: -7871122585674940944
-    second: Kick_24
+      213: 5952160076925432589
+    second: Special2_24
   - first:
-      213: 2770282508368533559
-    second: Kick_25
+      213: -1836046451528676168
+    second: Special2_25
   - first:
-      213: -6505984805256772458
-    second: Kick_26
+      213: -1751621028830496325
+    second: Special2_26
   - first:
-      213: -5135661782472528759
-    second: Kick_27
+      213: 1865552475754041016
+    second: Special2_27
   - first:
-      213: 4776322614497421682
-    second: Kick_28
+      213: 7466662142071662087
+    second: Special2_28
   - first:
-      213: -6359660778412559074
-    second: Kick_29
+      213: -3356844014341875517
+    second: Special2_29
   - first:
-      213: 3969365098454579327
-    second: Kick_30
+      213: 1768591005174250021
+    second: Special2_30
   - first:
-      213: 7364034447000363697
-    second: Kick_31
+      213: 3907333705176058172
+    second: Special2_31
   - first:
-      213: -5937058321480096244
-    second: Kick_32
+      213: -7067711008996013862
+    second: Special2_32
   - first:
-      213: 2112388846829592753
-    second: Kick_33
+      213: 8901818231263728415
+    second: Special2_33
   - first:
-      213: -6810268207112100259
-    second: Kick_34
+      213: 176976346486066882
+    second: Special2_34
   - first:
-      213: -3981618612978135638
-    second: Kick_35
+      213: 7031438223813284455
+    second: Special2_35
   - first:
-      213: 7068607032678475297
-    second: Kick_36
+      213: -2648777050782761689
+    second: Special2_36
   - first:
-      213: -1869642885893667781
-    second: Kick_37
+      213: -6731235430704020042
+    second: Special2_37
   - first:
-      213: 7651993739971860731
-    second: Kick_38
+      213: -1114674095467741326
+    second: Special2_38
   - first:
-      213: 8240018675257941764
-    second: Kick_39
+      213: 1957748075151790990
+    second: Special2_39
   - first:
-      213: -9005281627751113342
-    second: Kick_40
+      213: 8087169682444230152
+    second: Special2_40
   - first:
-      213: 3248501593303394810
-    second: Kick_41
+      213: 4886570436377177413
+    second: Special2_41
   - first:
-      213: -3810322179372027113
-    second: Kick_42
+      213: -7419780530146987876
+    second: Special2_42
   - first:
-      213: 1268547231836127592
-    second: Kick_43
+      213: -8932906558185417391
+    second: Special2_43
   - first:
-      213: 238645374277502217
-    second: Kick_44
+      213: 6653649422367408683
+    second: Special2_44
   - first:
-      213: 3549382180739583855
-    second: Kick_45
+      213: -5285548471967437739
+    second: Special2_45
   - first:
-      213: 3075367277012205919
-    second: Kick_46
+      213: -7747166018119635165
+    second: Special2_46
   - first:
-      213: -308950364216248243
-    second: Kick_47
+      213: -5496512191668604231
+    second: Special2_47
   - first:
-      213: -1255472037287010649
-    second: Kick_48
+      213: -1584605168476386041
+    second: Special2_48
   - first:
-      213: -4501335001233255172
-    second: Kick_49
+      213: 738876408606686715
+    second: Special2_49
   - first:
-      213: -7977118608748228579
-    second: Kick_50
+      213: -2155144212775051430
+    second: Special2_50
   - first:
-      213: 5999699660555418751
-    second: Kick_51
+      213: 8307390463249611619
+    second: Special2_51
   - first:
-      213: -3116682143974281607
-    second: Kick_52
+      213: 4658546153753155743
+    second: Special2_52
   - first:
-      213: 2847356777041489661
-    second: Kick_53
+      213: -3471801063329620126
+    second: Special2_53
   - first:
-      213: -2613113307084715381
-    second: Kick_54
+      213: -323654493064420997
+    second: Special2_54
   - first:
-      213: 4685421517959110566
-    second: Kick_55
+      213: -2974422173897016684
+    second: Special2_55
   - first:
-      213: 3179020469037808874
-    second: Kick_56
+      213: -3928065119259260145
+    second: Special2_56
   - first:
-      213: -8286538191473350673
-    second: Kick_57
+      213: -5812786820549139246
+    second: Special2_57
   - first:
-      213: -2686716513450129563
-    second: Kick_58
+      213: -2880836866290704347
+    second: Special2_58
   - first:
-      213: 3339459830459646191
-    second: Kick_59
+      213: -1865505350208377297
+    second: Special2_59
   - first:
-      213: -6110891247478702202
-    second: Kick_60
+      213: 6421724606719614083
+    second: Special2_60
   - first:
-      213: -6556703268762688167
-    second: Kick_61
+      213: -8445265536396784935
+    second: Special2_61
   - first:
-      213: 7251059502453073306
-    second: Kick_62
+      213: -5420681810806970141
+    second: Special2_62
   - first:
-      213: -6911509367171999994
-    second: Kick_63
+      213: 1430423946484221191
+    second: Special2_63
   - first:
-      213: -4445116623542283175
-    second: Kick_64
+      213: -8611923657012402739
+    second: Special2_64
   - first:
-      213: -8648281642174068681
-    second: Kick_65
+      213: 6469969763757822872
+    second: Special2_65
   - first:
-      213: 4973895548577131846
-    second: Kick_66
+      213: -2780383120322504227
+    second: Special2_66
   - first:
-      213: -5463355068963133117
-    second: Kick_67
+      213: -6323670176524334923
+    second: Special2_67
   - first:
-      213: -4196343815666612418
-    second: Kick_68
+      213: 7523645699166234760
+    second: Special2_68
   - first:
-      213: 5884461646573826522
-    second: Kick_69
+      213: 2589397033995274795
+    second: Special2_69
   - first:
-      213: 8367838434712239679
-    second: Kick_70
+      213: 2251883895069317535
+    second: Special2_70
   - first:
-      213: 5471944767195386833
-    second: Kick_71
+      213: 3661911353944105691
+    second: Special2_71
   - first:
-      213: -6145912367683719367
-    second: Kick_72
+      213: 3584824426683151681
+    second: Special2_72
   - first:
-      213: 4298759251804231530
-    second: Kick_73
+      213: -8450683587016715302
+    second: Special2_73
   - first:
-      213: -2603292104294591435
-    second: Kick_74
+      213: -572525660984194861
+    second: Special2_74
   - first:
-      213: -8484719476944776590
-    second: Kick_75
+      213: 8806520638114982235
+    second: Special2_75
   - first:
-      213: 8443718771696296413
-    second: Kick_76
+      213: 9193732695975961360
+    second: Special2_76
   - first:
-      213: -5315174322142030005
-    second: Kick_77
+      213: 5072360747815627725
+    second: Special2_77
   - first:
-      213: -8375909799440011323
-    second: Kick_78
+      213: 393182252818290718
+    second: Special2_78
   - first:
-      213: 5663072130928281157
-    second: Kick_79
+      213: -5784528250104488584
+    second: Special2_79
   - first:
-      213: -5252797724122942427
-    second: Kick_80
+      213: -9037826709670677437
+    second: Special2_80
   - first:
-      213: 3151777071854884341
-    second: Kick_81
+      213: 4405404263269779291
+    second: Special2_81
   - first:
-      213: 1000262339358072460
-    second: Kick_82
+      213: -8233102231722483096
+    second: Special2_82
   - first:
-      213: -1035734630405183642
-    second: Kick_83
+      213: 7660344773437867544
+    second: Special2_83
   - first:
-      213: 6282269460116976416
-    second: Kick_84
+      213: -1200674352320035827
+    second: Special2_84
   - first:
-      213: 7591130084371667291
-    second: Kick_85
+      213: 8861278825119903664
+    second: Special2_85
   - first:
-      213: 7323558474999384293
-    second: Kick_86
+      213: -6362058098318268122
+    second: Special2_86
   - first:
-      213: 5305662707708013074
-    second: Kick_87
+      213: 3737873413915199794
+    second: Special2_87
   - first:
-      213: -6279808519638660304
-    second: Kick_88
+      213: -1018593576659610457
+    second: Special2_88
   - first:
-      213: -1592582032535494678
-    second: Kick_89
+      213: -1089913628004195457
+    second: Special2_89
   - first:
-      213: 2432671286902158037
-    second: Kick_90
+      213: -7775117572499025546
+    second: Special2_90
   - first:
-      213: -8249641336187882781
-    second: Kick_91
+      213: -8499902428869585813
+    second: Special2_91
   - first:
-      213: 6873026007485832739
-    second: Kick_92
+      213: 3020251036962715851
+    second: Special2_92
   - first:
-      213: -8379961527138072690
-    second: Kick_93
+      213: -1983323132154289609
+    second: Special2_93
   - first:
-      213: 820464020854992596
-    second: Kick_94
+      213: 1631522880293182590
+    second: Special2_94
   - first:
-      213: -6834551127082495971
-    second: Kick_95
+      213: 571785101075563433
+    second: Special2_95
   - first:
-      213: -6242769092921517531
-    second: Kick_96
+      213: -3165278354092364528
+    second: Special2_96
   - first:
-      213: -4340561105458600748
-    second: Kick_97
+      213: -5548512861092087041
+    second: Special2_97
   - first:
-      213: 7259202979069582839
-    second: Kick_98
+      213: 8502967606070623015
+    second: Special2_98
   - first:
-      213: 6619545503148090890
-    second: Kick_99
+      213: -566755187651895301
+    second: Special2_99
   - first:
-      213: -3357011088158948144
-    second: Kick_100
+      213: 3903115556844474425
+    second: Special2_100
   - first:
-      213: 1075507650673402332
-    second: Kick_101
+      213: 1122541033014382175
+    second: Special2_101
   - first:
-      213: -6000757952218528778
-    second: Kick_102
+      213: -1278188387937326379
+    second: Special2_102
   - first:
-      213: -6843757243696751775
-    second: Kick_103
+      213: -9165350643793166728
+    second: Special2_103
   - first:
-      213: 268879620965417464
-    second: Kick_104
+      213: -3701166909750385171
+    second: Special2_104
   - first:
-      213: -4793709833487669161
-    second: Kick_105
+      213: 1724664983178265091
+    second: Special2_105
   - first:
-      213: 675303480682272361
-    second: Kick_106
+      213: -4522771616175603571
+    second: Special2_106
   - first:
-      213: 6067488920932953683
-    second: Kick_107
+      213: -541903845612220518
+    second: Special2_107
   - first:
-      213: -3603929609555661270
-    second: Kick_108
+      213: -953574025372362470
+    second: Special2_108
   - first:
-      213: 1882164786322147159
-    second: Kick_109
+      213: -8217245282354822768
+    second: Special2_109
   - first:
-      213: -853935072052737882
-    second: Kick_110
+      213: 9149818702501409375
+    second: Special2_110
   - first:
-      213: -2497510523561717982
-    second: Kick_111
+      213: 308970528069359473
+    second: Special2_111
   - first:
-      213: 6198950438793629871
-    second: Kick_112
+      213: 748532033880693735
+    second: Special2_112
   - first:
-      213: 2105246556999147653
-    second: Kick_113
+      213: 8583224274846595854
+    second: Special2_113
   - first:
-      213: -6810643237891943874
-    second: Kick_114
+      213: 4087735528531036881
+    second: Special2_114
   - first:
-      213: -7389096978637695472
-    second: Kick_115
+      213: 7957321275403813500
+    second: Special2_115
   - first:
-      213: -2266966428193576388
-    second: Kick_116
+      213: -8072697091404399433
+    second: Special2_116
   - first:
-      213: 1418098954312812508
-    second: Kick_117
+      213: -510229839202877590
+    second: Special2_117
   - first:
-      213: 8994804610375598687
-    second: Kick_118
+      213: 5735504833442130537
+    second: Special2_118
   - first:
-      213: -5159842926858346523
-    second: Kick_119
+      213: 4437537414338463811
+    second: Special2_119
   - first:
-      213: -7541554345672330853
-    second: Kick_120
+      213: 6842734612770396983
+    second: Special2_120
   - first:
-      213: -6595444687720014423
-    second: Kick_121
+      213: -4663565789203832919
+    second: Special2_121
   - first:
-      213: 4763469428234390433
-    second: Kick_122
+      213: 1040287968760893240
+    second: Special2_122
   - first:
-      213: -1419801895282076848
-    second: Kick_123
+      213: -5911121053268611033
+    second: Special2_123
   - first:
-      213: 2118738356124362166
-    second: Kick_124
+      213: -8869866487961980583
+    second: Special2_124
   - first:
-      213: 6002755457341601584
-    second: Kick_125
+      213: 8759898269331702788
+    second: Special2_125
   - first:
-      213: -5364329746945696212
-    second: Kick_126
+      213: -4641580957421019832
+    second: Special2_126
   - first:
-      213: 7811171535337056517
-    second: Kick_127
+      213: -4374482197706423270
+    second: Special2_127
   - first:
-      213: 3111627922806444294
-    second: Kick_128
+      213: -5321892003307916474
+    second: Special2_128
   - first:
-      213: -2217119072933265325
-    second: Kick_129
+      213: -540727705606029459
+    second: Special2_129
   - first:
-      213: -2679576742367458705
-    second: Kick_130
+      213: 1789750033490673998
+    second: Special2_130
   - first:
-      213: -6968814812825755101
-    second: Kick_131
+      213: 7746357314077849608
+    second: Special2_131
   - first:
-      213: 8217088379978306390
-    second: Kick_132
+      213: 94463723083634501
+    second: Special2_132
   - first:
-      213: 2239114697434531946
-    second: Kick_133
+      213: 1029620301263081085
+    second: Special2_133
   - first:
-      213: -6161627887438175428
-    second: Kick_134
+      213: 5711243457301723937
+    second: Special2_134
+  - first:
+      213: -812430247033043136
+    second: Special2_135
+  - first:
+      213: -5805090252378082069
+    second: Special2_136
+  - first:
+      213: 8218978865111077059
+    second: Special2_137
+  - first:
+      213: 7415566811222695172
+    second: Special2_138
+  - first:
+      213: 7016441169688639645
+    second: Special2_139
+  - first:
+      213: 2780300844649549516
+    second: Special2_140
+  - first:
+      213: -745640639021055994
+    second: Special2_141
+  - first:
+      213: -3109225176021955587
+    second: Special2_142
+  - first:
+      213: -566601704899193747
+    second: Special2_143
+  - first:
+      213: 7570799345510261198
+    second: Special2_144
+  - first:
+      213: -701880739649953783
+    second: Special2_145
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -517,7 +550,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kick_0
+      name: Special2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -532,14 +565,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8252664c31f69a340800000000000000
-      internalID: 4875550202295362856
+      spriteID: 5e8b71d88c525dc80800000000000000
+      internalID: -8298685195069441819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_1
+      name: Special2_1
       rect:
         serializedVersion: 2
         x: 128
@@ -554,14 +587,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b006644a81427660800000000000000
-      internalID: 7382034801322492081
+      spriteID: 11f17506db10478e0800000000000000
+      internalID: -1696729246735065327
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_2
+      name: Special2_2
       rect:
         serializedVersion: 2
         x: 256
@@ -576,14 +609,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1cf7d6c7f26248230800000000000000
-      internalID: 3640076384215072705
+      spriteID: 62faf6c5f28b7afe0800000000000000
+      internalID: -1177770263980298458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_3
+      name: Special2_3
       rect:
         serializedVersion: 2
         x: 384
@@ -598,14 +631,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6e35eb2ea04b840b0800000000000000
-      internalID: -5744143365864270874
+      spriteID: 22de8dd34d3a25e00800000000000000
+      internalID: 1032067396587285794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_4
+      name: Special2_4
       rect:
         serializedVersion: 2
         x: 512
@@ -620,14 +653,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 11567a399f9f22890800000000000000
-      internalID: -7484144780416948975
+      spriteID: 0e8fabebc9581e080800000000000000
+      internalID: -9159893258833561376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_5
+      name: Special2_5
       rect:
         serializedVersion: 2
         x: 640
@@ -642,14 +675,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da3effb0f5c4aa3c0800000000000000
-      internalID: -4347578519165869139
+      spriteID: 1e08c28230d5bc130800000000000000
+      internalID: 3588063796271022305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_6
+      name: Special2_6
       rect:
         serializedVersion: 2
         x: 768
@@ -664,14 +697,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 63fb6e83186dac5a0800000000000000
-      internalID: -6500147261662118090
+      spriteID: 7359a1df423a35db0800000000000000
+      internalID: -4804316998213659337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_7
+      name: Special2_7
       rect:
         serializedVersion: 2
         x: 896
@@ -686,14 +719,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fb0a39336253d51c0800000000000000
-      internalID: -4513392813365026625
+      spriteID: 1f67bb6c61fa777e0800000000000000
+      internalID: -1767751816361314575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_8
+      name: Special2_8
       rect:
         serializedVersion: 2
         x: 1024
@@ -708,14 +741,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7aef5295741a0f020800000000000000
-      internalID: 2373574331434663591
+      spriteID: 2dfca5e57adba0d90800000000000000
+      internalID: -7130678533447561262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_9
+      name: Special2_9
       rect:
         serializedVersion: 2
         x: 1152
@@ -730,14 +763,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8343589378bfd56f0800000000000000
-      internalID: -694122209341000648
+      spriteID: ffce146521d373700800000000000000
+      internalID: 519951430950448383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_10
+      name: Special2_10
       rect:
         serializedVersion: 2
         x: 1280
@@ -752,14 +785,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9335b00e5929f84d0800000000000000
-      internalID: -3130122043592584391
+      spriteID: 093acb78ed0172c90800000000000000
+      internalID: -7194763331755007088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_11
+      name: Special2_11
       rect:
         serializedVersion: 2
         x: 1408
@@ -774,14 +807,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0ed993244d2609fe0800000000000000
-      internalID: -1184338038214779424
+      spriteID: 6928baa0fa7d2b700800000000000000
+      internalID: 554742850918253206
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_12
+      name: Special2_12
       rect:
         serializedVersion: 2
         x: 1536
@@ -796,14 +829,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a69e2332de6bed8a0800000000000000
-      internalID: -6278379700893849238
+      spriteID: f78a10b5cbe927760800000000000000
+      internalID: 7454194865069467775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_13
+      name: Special2_13
       rect:
         serializedVersion: 2
         x: 1664
@@ -818,14 +851,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5eedf0a56f70bafd0800000000000000
-      internalID: -2329759627579760923
+      spriteID: a3e2c91a1e04a81a0800000000000000
+      internalID: -6806556548993896902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_14
+      name: Special2_14
       rect:
         serializedVersion: 2
         x: 1792
@@ -840,14 +873,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d81d885e347a3d680800000000000000
-      internalID: -8731451342485663347
+      spriteID: d9d59cf55993db900800000000000000
+      internalID: 701780430659607965
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_15
+      name: Special2_15
       rect:
         serializedVersion: 2
         x: 0
@@ -862,14 +895,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5cced27ab3cb86810800000000000000
-      internalID: 1758862618882075845
+      spriteID: 636ec3feb9c46ff20800000000000000
+      internalID: 3456033996670821942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_16
+      name: Special2_16
       rect:
         serializedVersion: 2
         x: 128
@@ -884,14 +917,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 07700fb99bf0b3eb0800000000000000
-      internalID: -4739176893017749648
+      spriteID: c85bed4936516aa60800000000000000
+      internalID: 7684853331597899148
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_17
+      name: Special2_17
       rect:
         serializedVersion: 2
         x: 256
@@ -906,14 +939,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0f35b7d2bccf2b690800000000000000
-      internalID: -7587724472594246672
+      spriteID: 93360d8a3a31fdb80800000000000000
+      internalID: -8367947988998266055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_18
+      name: Special2_18
       rect:
         serializedVersion: 2
         x: 384
@@ -928,14 +961,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 34cec387dc35b7630800000000000000
-      internalID: 3925823642134178883
+      spriteID: 494fc28bc018f6520800000000000000
+      internalID: 2697516593447761044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_19
+      name: Special2_19
       rect:
         serializedVersion: 2
         x: 512
@@ -950,14 +983,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ca1950f0b1146f890800000000000000
-      internalID: -7424675351201738324
+      spriteID: f146feaba2d841dd0800000000000000
+      internalID: -2516231077128870881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_20
+      name: Special2_20
       rect:
         serializedVersion: 2
         x: 640
@@ -972,14 +1005,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 74996fe3640cdc820800000000000000
-      internalID: 2940217539679394119
+      spriteID: 695688ab5726b0200800000000000000
+      internalID: 147319670599869846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_21
+      name: Special2_21
       rect:
         serializedVersion: 2
         x: 768
@@ -994,14 +1027,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7d3cda7faf2ab26c0800000000000000
-      internalID: -4167057831420378153
+      spriteID: cbf7f5a91c65fc580800000000000000
+      internalID: -8804723356967403588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_22
+      name: Special2_22
       rect:
         serializedVersion: 2
         x: 896
@@ -1016,14 +1049,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a925cc915bd8eb0e0800000000000000
-      internalID: -2252206954677251430
+      spriteID: 2e050bd47b8660560800000000000000
+      internalID: 7279620984182690018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_23
+      name: Special2_23
       rect:
         serializedVersion: 2
         x: 1024
@@ -1038,14 +1071,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d7e83ed7bc68082d0800000000000000
-      internalID: -3278472320177172867
+      spriteID: dd85136c28e715670800000000000000
+      internalID: 8525734669725030621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_24
+      name: Special2_24
       rect:
         serializedVersion: 2
         x: 1152
@@ -1060,14 +1093,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0fd7a4916b724c290800000000000000
-      internalID: -7871122585674940944
+      spriteID: d03f667dd025a9250800000000000000
+      internalID: 5952160076925432589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_25
+      name: Special2_25
       rect:
         serializedVersion: 2
         x: 1280
@@ -1082,14 +1115,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 738d8c68345027620800000000000000
-      internalID: 2770282508368533559
+      spriteID: 8bc4489ea7d0586e0800000000000000
+      internalID: -1836046451528676168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_26
+      name: Special2_26
       rect:
         serializedVersion: 2
         x: 1408
@@ -1104,14 +1137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 694c4903a4916b5a0800000000000000
-      internalID: -6505984805256772458
+      spriteID: bb9347b64fdf0b7e0800000000000000
+      internalID: -1751621028830496325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_27
+      name: Special2_27
       rect:
         serializedVersion: 2
         x: 1536
@@ -1126,14 +1159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 98cec2991d67ab8b0800000000000000
-      internalID: -5135661782472528759
+      spriteID: 8be8b23b716c3e910800000000000000
+      internalID: 1865552475754041016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_28
+      name: Special2_28
       rect:
         serializedVersion: 2
         x: 1664
@@ -1148,14 +1181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 279a8c1ac18e84240800000000000000
-      internalID: 4776322614497421682
+      spriteID: 706e90c78a9ee9760800000000000000
+      internalID: 7466662142071662087
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_29
+      name: Special2_29
       rect:
         serializedVersion: 2
         x: 1792
@@ -1170,14 +1203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e153cba8732fdb7a0800000000000000
-      internalID: -6359660778412559074
+      spriteID: 3c891ce77281a61d0800000000000000
+      internalID: -3356844014341875517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_30
+      name: Special2_30
       rect:
         serializedVersion: 2
         x: 0
@@ -1192,14 +1225,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f78f735c684061730800000000000000
-      internalID: 3969365098454579327
+      spriteID: 52abc58162c4b8810800000000000000
+      internalID: 1768591005174250021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_31
+      name: Special2_31
       rect:
         serializedVersion: 2
         x: 128
@@ -1214,14 +1247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b2623f205e423660800000000000000
-      internalID: 7364034447000363697
+      spriteID: c390eeb8d43a93630800000000000000
+      internalID: 3907333705176058172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_32
+      name: Special2_32
       rect:
         serializedVersion: 2
         x: 256
@@ -1236,14 +1269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c06e66999e45b9da0800000000000000
-      internalID: -5937058321480096244
+      spriteID: ad8ccad98427aed90800000000000000
+      internalID: -7067711008996013862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_33
+      name: Special2_33
       rect:
         serializedVersion: 2
         x: 384
@@ -1258,14 +1291,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b066cad676b05d10800000000000000
-      internalID: 2112388846829592753
+      spriteID: f131299748c998b70800000000000000
+      internalID: 8901818231263728415
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_34
+      name: Special2_34
       rect:
         serializedVersion: 2
         x: 512
@@ -1280,14 +1313,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d5662f1e5211d71a0800000000000000
-      internalID: -6810268207112100259
+      spriteID: 2cec2f9ac0fb47200800000000000000
+      internalID: 176976346486066882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_35
+      name: Special2_35
       rect:
         serializedVersion: 2
         x: 640
@@ -1302,14 +1335,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aadca5e87f27eb8c0800000000000000
-      internalID: -3981618612978135638
+      spriteID: 7629e767fcfa49160800000000000000
+      internalID: 7031438223813284455
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_36
+      name: Special2_36
       rect:
         serializedVersion: 2
         x: 768
@@ -1324,14 +1357,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 126e0a725acb81260800000000000000
-      internalID: 7068607032678475297
+      spriteID: 72df2ee5e47ad3bd0800000000000000
+      internalID: -2648777050782761689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_37
+      name: Special2_37
       rect:
         serializedVersion: 2
         x: 896
@@ -1346,14 +1379,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b34c87973b1bd06e0800000000000000
-      internalID: -1869642885893667781
+      spriteID: 6b50d551a09d592a0800000000000000
+      internalID: -6731235430704020042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_38
+      name: Special2_38
       rect:
         serializedVersion: 2
         x: 1024
@@ -1368,14 +1401,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bf81986b3c7513a60800000000000000
-      internalID: 7651993739971860731
+      spriteID: 27fb053e0d1e780f0800000000000000
+      internalID: -1114674095467741326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_39
+      name: Special2_39
       rect:
         serializedVersion: 2
         x: 1152
@@ -1390,14 +1423,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40f9551e35d6a5270800000000000000
-      internalID: 8240018675257941764
+      spriteID: e83902370815b2b10800000000000000
+      internalID: 1957748075151790990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_40
+      name: Special2_40
       rect:
         serializedVersion: 2
         x: 1280
@@ -1412,14 +1445,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 28d1b835210d60380800000000000000
-      internalID: -9005281627751113342
+      spriteID: 80e95608af56b3070800000000000000
+      internalID: 8087169682444230152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_41
+      name: Special2_41
       rect:
         serializedVersion: 2
         x: 1408
@@ -1434,14 +1467,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: af9a321ecfef41d20800000000000000
-      internalID: 3248501593303394810
+      spriteID: 54def26fbe590d340800000000000000
+      internalID: 4886570436377177413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_42
+      name: Special2_42
       rect:
         serializedVersion: 2
         x: 1536
@@ -1456,14 +1489,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 713fcb27a240f1bc0800000000000000
-      internalID: -3810322179372027113
+      spriteID: c90ba356be4a70990800000000000000
+      internalID: -7419780530146987876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_43
+      name: Special2_43
       rect:
         serializedVersion: 2
         x: 1664
@@ -1478,14 +1511,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 861c56e7cf8ca9110800000000000000
-      internalID: 1268547231836127592
+      spriteID: 155d99b50d0f70480800000000000000
+      internalID: -8932906558185417391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_44
+      name: Special2_44
       rect:
         serializedVersion: 2
         x: 1792
@@ -1500,14 +1533,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 905c91914b6df4300800000000000000
-      internalID: 238645374277502217
+      spriteID: b224138a5e2865c50800000000000000
+      internalID: 6653649422367408683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_45
+      name: Special2_45
       rect:
         serializedVersion: 2
         x: 0
@@ -1522,14 +1555,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f6f8517b940f14130800000000000000
-      internalID: 3549382180739583855
+      spriteID: 55ca5453ba5f5a6b0800000000000000
+      internalID: -5285548471967437739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_46
+      name: Special2_46
       rect:
         serializedVersion: 2
         x: 128
@@ -1544,14 +1577,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f514c249e36edaa20800000000000000
-      internalID: 3075367277012205919
+      spriteID: 32f60028d898c7490800000000000000
+      internalID: -7747166018119635165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_47
+      name: Special2_47
       rect:
         serializedVersion: 2
         x: 256
@@ -1566,14 +1599,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d48b9a7d74366bbf0800000000000000
-      internalID: -308950364216248243
+      spriteID: 9b23dff884778b3b0800000000000000
+      internalID: -5496512191668604231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_48
+      name: Special2_48
       rect:
         serializedVersion: 2
         x: 384
@@ -1588,14 +1621,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7ae521875daa39ee0800000000000000
-      internalID: -1255472037287010649
+      spriteID: 70d87bfaef9520ae0800000000000000
+      internalID: -1584605168476386041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_49
+      name: Special2_49
       rect:
         serializedVersion: 2
         x: 512
@@ -1610,14 +1643,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cf4957c5aab0881c0800000000000000
-      internalID: -4501335001233255172
+      spriteID: bfdfaebcd24014a00800000000000000
+      internalID: 738876408606686715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_50
+      name: Special2_50
       rect:
         serializedVersion: 2
         x: 640
@@ -1632,14 +1665,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d105762d3e49b4190800000000000000
-      internalID: -7977118608748228579
+      spriteID: a5fddc5c1c36712e0800000000000000
+      internalID: -2155144212775051430
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_51
+      name: Special2_51
       rect:
         serializedVersion: 2
         x: 768
@@ -1654,14 +1687,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f7cff62bd07334350800000000000000
-      internalID: 5999699660555418751
+      spriteID: 36bf574ac97c94370800000000000000
+      internalID: 8307390463249611619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_52
+      name: Special2_52
       rect:
         serializedVersion: 2
         x: 896
@@ -1676,14 +1709,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 97e2c9a5a125fb4d0800000000000000
-      internalID: -3116682143974281607
+      spriteID: f9818387b0b76a040800000000000000
+      internalID: 4658546153753155743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_53
+      name: Special2_53
       rect:
         serializedVersion: 2
         x: 1024
@@ -1698,14 +1731,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dfeeb5c17e7d38720800000000000000
-      internalID: 2847356777041489661
+      spriteID: 26f1a69c35fa1dfc0800000000000000
+      internalID: -3471801063329620126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_54
+      name: Special2_54
       rect:
         serializedVersion: 2
         x: 1152
@@ -1720,14 +1753,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b8a8e55ca4b5cbbd0800000000000000
-      internalID: -2613113307084715381
+      spriteID: b71afee04f5228bf0800000000000000
+      internalID: -323654493064420997
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_55
+      name: Special2_55
       rect:
         serializedVersion: 2
         x: 1280
@@ -1742,14 +1775,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6af9ce0db06f50140800000000000000
-      internalID: 4685421517959110566
+      spriteID: 49ab2d0cacab8b6d0800000000000000
+      internalID: -2974422173897016684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_56
+      name: Special2_56
       rect:
         serializedVersion: 2
         x: 1408
@@ -1764,14 +1797,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aecb1bef5462e1c20800000000000000
-      internalID: 3179020469037808874
+      spriteID: f0b03f7f595bc79c0800000000000000
+      internalID: -3928065119259260145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_57
+      name: Special2_57
       rect:
         serializedVersion: 2
         x: 1536
@@ -1786,14 +1819,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fe7e5873b6d400d80800000000000000
-      internalID: -8286538191473350673
+      spriteID: 2d4a8162f25d45fa0800000000000000
+      internalID: -5812786820549139246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_58
+      name: Special2_58
       rect:
         serializedVersion: 2
         x: 1664
@@ -1808,14 +1841,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 56701abd09dd6bad0800000000000000
-      internalID: -2686716513450129563
+      spriteID: 520a4e822263508d0800000000000000
+      internalID: -2880836866290704347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_59
+      name: Special2_59
       rect:
         serializedVersion: 2
         x: 1792
@@ -1830,14 +1863,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fe0cb38c505285e20800000000000000
-      internalID: 3339459830459646191
+      spriteID: f2e2d3294c46c16e0800000000000000
+      internalID: -1865505350208377297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_60
+      name: Special2_60
       rect:
         serializedVersion: 2
         x: 0
@@ -1852,14 +1885,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 68ffcfc89c0c13ba0800000000000000
-      internalID: -6110891247478702202
+      spriteID: 38c58ec818c8e1950800000000000000
+      internalID: 6421724606719614083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_61
+      name: Special2_61
       rect:
         serializedVersion: 2
         x: 128
@@ -1874,14 +1907,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 955e1cfad19e105a0800000000000000
-      internalID: -6556703268762688167
+      spriteID: 9da88355db36cca80800000000000000
+      internalID: -8445265536396784935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_62
+      name: Special2_62
       rect:
         serializedVersion: 2
         x: 256
@@ -1896,14 +1929,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a95afe02330f0a460800000000000000
-      internalID: 7251059502453073306
+      spriteID: 3e8ed62fc9ed5c4b0800000000000000
+      internalID: -5420681810806970141
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_63
+      name: Special2_63
       rect:
         serializedVersion: 2
         x: 384
@@ -1918,14 +1951,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6079deb69d26510a0800000000000000
-      internalID: -6911509367171999994
+      spriteID: 70587682003e9d310800000000000000
+      internalID: 1430423946484221191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_64
+      name: Special2_64
       rect:
         serializedVersion: 2
         x: 512
@@ -1940,14 +1973,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 954149c6bf5cf42c0800000000000000
-      internalID: -4445116623542283175
+      spriteID: dc52ef6df0d4c7880800000000000000
+      internalID: -8611923657012402739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_65
+      name: Special2_65
       rect:
         serializedVersion: 2
         x: 640
@@ -1962,14 +1995,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 738cea0caa12bf780800000000000000
-      internalID: -8648281642174068681
+      spriteID: 8939d448833f9c950800000000000000
+      internalID: 6469969763757822872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_66
+      name: Special2_66
       rect:
         serializedVersion: 2
         x: 768
@@ -1984,14 +2017,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64d26da06a3d60540800000000000000
-      internalID: 4973895548577131846
+      spriteID: dd95fad78481a69d0800000000000000
+      internalID: -2780383120322504227
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_67
+      name: Special2_67
       rect:
         serializedVersion: 2
         x: 896
@@ -2006,14 +2039,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3496f98c2834e24b0800000000000000
-      internalID: -5463355068963133117
+      spriteID: 5b8098b8a7fcd38a0800000000000000
+      internalID: -6323670176524334923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_68
+      name: Special2_68
       rect:
         serializedVersion: 2
         x: 1024
@@ -2028,14 +2061,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e37c8c7688793c5c0800000000000000
-      internalID: -4196343815666612418
+      spriteID: 888e2b2c6eb596860800000000000000
+      internalID: 7523645699166234760
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_69
+      name: Special2_69
       rect:
         serializedVersion: 2
         x: 1152
@@ -2050,14 +2083,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad1717ab0bec9a150800000000000000
-      internalID: 5884461646573826522
+      spriteID: b2a0db912e26fe320800000000000000
+      internalID: 2589397033995274795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_70
+      name: Special2_70
       rect:
         serializedVersion: 2
         x: 1280
@@ -2072,14 +2105,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f3e32eeb8b8802470800000000000000
-      internalID: 8367838434712239679
+      spriteID: f999709b87c404f10800000000000000
+      internalID: 2251883895069317535
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_71
+      name: Special2_71
       rect:
         serializedVersion: 2
         x: 1408
@@ -2094,14 +2127,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1d31d3f26c040fb40800000000000000
-      internalID: 5471944767195386833
+      spriteID: bd2eeca89f8b1d230800000000000000
+      internalID: 3661911353944105691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_72
+      name: Special2_72
       rect:
         serializedVersion: 2
         x: 1536
@@ -2116,14 +2149,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 93f2887934555baa0800000000000000
-      internalID: -6145912367683719367
+      spriteID: 145b796a2dadfb130800000000000000
+      internalID: 3584824426683151681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_73
+      name: Special2_73
       rect:
         serializedVersion: 2
         x: 1664
@@ -2138,14 +2171,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a6717b283c248ab30800000000000000
-      internalID: 4298759251804231530
+      spriteID: ad315ae1d0429ba80800000000000000
+      internalID: -8450683587016715302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_74
+      name: Special2_74
       rect:
         serializedVersion: 2
         x: 1792
@@ -2160,14 +2193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 53411fcbf9f3fdbd0800000000000000
-      internalID: -2603292104294591435
+      spriteID: 3d8cd38d1fafd08f0800000000000000
+      internalID: -572525660984194861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_75
+      name: Special2_75
       rect:
         serializedVersion: 2
         x: 0
@@ -2182,14 +2215,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2725ed5f698304a80800000000000000
-      internalID: -8484719476944776590
+      spriteID: b596df58cdb073a70800000000000000
+      internalID: 8806520638114982235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_76
+      name: Special2_76
       rect:
         serializedVersion: 2
         x: 128
@@ -2204,14 +2237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dd161427c7d1e2570800000000000000
-      internalID: 8443718771696296413
+      spriteID: 013aa8f2d23b69f70800000000000000
+      internalID: 9193732695975961360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_77
+      name: Special2_77
       rect:
         serializedVersion: 2
         x: 256
@@ -2226,14 +2259,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b4752717d15bc36b0800000000000000
-      internalID: -5315174322142030005
+      spriteID: dcb6f22c935a46640800000000000000
+      internalID: 5072360747815627725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_78
+      name: Special2_78
       rect:
         serializedVersion: 2
         x: 384
@@ -2248,14 +2281,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5cf2aa53a6ac2cb80800000000000000
-      internalID: -8375909799440011323
+      spriteID: e18d83ffc2dd47500800000000000000
+      internalID: 393182252818290718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_79
+      name: Special2_79
       rect:
         serializedVersion: 2
         x: 512
@@ -2270,14 +2303,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 546056d4916479e40800000000000000
-      internalID: 5663072130928281157
+      spriteID: 87d5f4b443a39bfa0800000000000000
+      internalID: -5784528250104488584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_80
+      name: Special2_80
       rect:
         serializedVersion: 2
         x: 640
@@ -2292,14 +2325,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 524fba8ec405a17b0800000000000000
-      internalID: -5252797724122942427
+      spriteID: 344ba84fd70339280800000000000000
+      internalID: -9037826709670677437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_81
+      name: Special2_81
       rect:
         serializedVersion: 2
         x: 768
@@ -2314,14 +2347,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f5912b4c8c5dbb20800000000000000
-      internalID: 3151777071854884341
+      spriteID: b57cf2c26d3232d30800000000000000
+      internalID: 4405404263269779291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_82
+      name: Special2_82
       rect:
         serializedVersion: 2
         x: 896
@@ -2336,14 +2369,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c8e93ab4c45a1ed00800000000000000
-      internalID: 1000262339358072460
+      spriteID: 862a4be14252ebd80800000000000000
+      internalID: -8233102231722483096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_83
+      name: Special2_83
       rect:
         serializedVersion: 2
         x: 1024
@@ -2358,14 +2391,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 667e02957d450a1f0800000000000000
-      internalID: -1035734630405183642
+      spriteID: 816c8c53cf20f4a60800000000000000
+      internalID: 7660344773437867544
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_84
+      name: Special2_84
       rect:
         serializedVersion: 2
         x: 1152
@@ -2380,14 +2413,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 023be810aca1f2750800000000000000
-      internalID: 6282269460116976416
+      spriteID: d04ca0bb909565fe0800000000000000
+      internalID: -1200674352320035827
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_85
+      name: Special2_85
       rect:
         serializedVersion: 2
         x: 1280
@@ -2402,14 +2435,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b5911ca979c195960800000000000000
-      internalID: 7591130084371667291
+      spriteID: 0bf66f2742699fa70800000000000000
+      internalID: 8861278825119903664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_86
+      name: Special2_86
       rect:
         serializedVersion: 2
         x: 1408
@@ -2424,14 +2457,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5e8c32291a182a560800000000000000
-      internalID: 7323558474999384293
+      spriteID: 629a7510edd65b7a0800000000000000
+      internalID: -6362058098318268122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_87
+      name: Special2_87
       rect:
         serializedVersion: 2
         x: 1536
@@ -2446,14 +2479,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 21a29fe3f1081a940800000000000000
-      internalID: 5305662707708013074
+      spriteID: 239cacbd0189fd330800000000000000
+      internalID: 3737873413915199794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_88
+      name: Special2_88
       rect:
         serializedVersion: 2
         x: 1664
@@ -2468,14 +2501,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 03b47795c63a9d8a0800000000000000
-      internalID: -6279808519638660304
+      spriteID: 7a495bce98a3dd1f0800000000000000
+      internalID: -1018593576659610457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_89
+      name: Special2_89
       rect:
         serializedVersion: 2
         x: 1792
@@ -2490,14 +2523,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aef5d0b441306e9e0800000000000000
-      internalID: -1592582032535494678
+      spriteID: f73e3f67459dfd0f0800000000000000
+      internalID: -1089913628004195457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_90
+      name: Special2_90
       rect:
         serializedVersion: 2
         x: 0
@@ -2512,14 +2545,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d2781785a592c120800000000000000
-      internalID: 2432671286902158037
+      spriteID: 6715c4c13cb391490800000000000000
+      internalID: -7775117572499025546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_91
+      name: Special2_91
       rect:
         serializedVersion: 2
         x: 128
@@ -2534,14 +2567,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3e27428c9e2638d80800000000000000
-      internalID: -8249641336187882781
+      spriteID: b649fbd76c74a0a80800000000000000
+      internalID: -8499902428869585813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_92
+      name: Special2_92
       rect:
         serializedVersion: 2
         x: 256
@@ -2556,14 +2589,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 32ed63c2db4e16f50800000000000000
-      internalID: 6873026007485832739
+      spriteID: bc8faaee0561ae920800000000000000
+      internalID: 3020251036962715851
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_93
+      name: Special2_93
       rect:
         serializedVersion: 2
         x: 384
@@ -2578,14 +2611,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e87ce77d36564bb80800000000000000
-      internalID: -8379961527138072690
+      spriteID: 732e0219e12d974e0800000000000000
+      internalID: -1983323132154289609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_94
+      name: Special2_94
       rect:
         serializedVersion: 2
         x: 512
@@ -2600,14 +2633,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4deec021eafd26b00800000000000000
-      internalID: 820464020854992596
+      spriteID: e7c1cca5a6554a610800000000000000
+      internalID: 1631522880293182590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_95
+      name: Special2_95
       rect:
         serializedVersion: 2
         x: 640
@@ -2622,14 +2655,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d10900ff5fbc621a0800000000000000
-      internalID: -6834551127082495971
+      spriteID: 9a3487d15836fe700800000000000000
+      internalID: 571785101075563433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_96
+      name: Special2_96
       rect:
         serializedVersion: 2
         x: 768
@@ -2644,14 +2677,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52a10a9e59a3d59a0800000000000000
-      internalID: -6242769092921517531
+      spriteID: 01d67197b1ca214d0800000000000000
+      internalID: -3165278354092364528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_97
+      name: Special2_97
       rect:
         serializedVersion: 2
         x: 896
@@ -2666,14 +2699,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d4634ffbaa33c3c0800000000000000
-      internalID: -4340561105458600748
+      spriteID: ffa7bea33f8bff2b0800000000000000
+      internalID: -5548512861092087041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_98
+      name: Special2_98
       rect:
         serializedVersion: 2
         x: 1024
@@ -2688,14 +2721,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7fd56e706aeddb460800000000000000
-      internalID: 7259202979069582839
+      spriteID: 72b3e70bcfb900670800000000000000
+      internalID: 8502967606070623015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_99
+      name: Special2_99
       rect:
         serializedVersion: 2
         x: 1152
@@ -2710,14 +2743,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a062da130995ddb50800000000000000
-      internalID: 6619545503148090890
+      spriteID: bff166dd82b7228f0800000000000000
+      internalID: -566755187651895301
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_100
+      name: Special2_100
       rect:
         serializedVersion: 2
         x: 1280
@@ -2732,14 +2765,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d40d3793308961d0800000000000000
-      internalID: -3357011088158948144
+      spriteID: 930140b5be6aa2630800000000000000
+      internalID: 3903115556844474425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_101
+      name: Special2_101
       rect:
         serializedVersion: 2
         x: 1408
@@ -2754,14 +2787,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cd16a9f8288fcee00800000000000000
-      internalID: 1075507650673402332
+      spriteID: f5e4f9e3f11149f00800000000000000
+      internalID: 1122541033014382175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_102
+      name: Special2_102
       rect:
         serializedVersion: 2
         x: 1536
@@ -2776,14 +2809,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6f30ae29f6609bca0800000000000000
-      internalID: -6000757952218528778
+      spriteID: 5da67fcee66f24ee0800000000000000
+      internalID: -1278188387937326379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_103
+      name: Special2_103
       rect:
         serializedVersion: 2
         x: 1664
@@ -2798,14 +2831,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 16bd270fb071601a0800000000000000
-      internalID: -6843757243696751775
+      spriteID: 87e7fca46222ec080800000000000000
+      internalID: -9165350643793166728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_104
+      name: Special2_104
       rect:
         serializedVersion: 2
         x: 1792
@@ -2820,14 +2853,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8f14cf637904bb300800000000000000
-      internalID: 268879620965417464
+      spriteID: de5e5e12e40d2acc0800000000000000
+      internalID: -3701166909750385171
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_105
+      name: Special2_105
       rect:
         serializedVersion: 2
         x: 0
@@ -2842,14 +2875,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 758abaafd42597db0800000000000000
-      internalID: -4793709833487669161
+      spriteID: 30245ee1aad3fe710800000000000000
+      internalID: 1724664983178265091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_106
+      name: Special2_106
       rect:
         serializedVersion: 2
         x: 128
@@ -2864,14 +2897,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 966d6a110f82f5900800000000000000
-      internalID: 675303480682272361
+      spriteID: d8042a18d23eb31c0800000000000000
+      internalID: -4522771616175603571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_107
+      name: Special2_107
       rect:
         serializedVersion: 2
         x: 256
@@ -2886,14 +2919,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 35ea3d2d60d043450800000000000000
-      internalID: 6067488920932953683
+      spriteID: a9f8dd3d255ca78f0800000000000000
+      internalID: -541903845612220518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_108
+      name: Special2_108
       rect:
         serializedVersion: 2
         x: 384
@@ -2908,14 +2941,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a2e2ce25d154cfdc0800000000000000
-      internalID: -3603929609555661270
+      spriteID: a1914a6e97934c2f0800000000000000
+      internalID: -953574025372362470
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_109
+      name: Special2_109
       rect:
         serializedVersion: 2
         x: 512
@@ -2930,14 +2963,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7570b79a6eace1a10800000000000000
-      internalID: 1882164786322147159
+      spriteID: 0918cf8d3fa76fd80800000000000000
+      internalID: -8217245282354822768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_110
+      name: Special2_110
       rect:
         serializedVersion: 2
         x: 640
@@ -2952,14 +2985,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a88c0983963624f0800000000000000
-      internalID: -853935072052737882
+      spriteID: f5272d1d1afaafe70800000000000000
+      internalID: 9149818702501409375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_111
+      name: Special2_111
       rect:
         serializedVersion: 2
         x: 768
@@ -2974,14 +3007,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 22fcd44496f075dd0800000000000000
-      internalID: -2497510523561717982
+      spriteID: 17793abee0fa94400800000000000000
+      internalID: 308970528069359473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_112
+      name: Special2_112
       rect:
         serializedVersion: 2
         x: 896
@@ -2996,14 +3029,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fa0db84a498170650800000000000000
-      internalID: 6198950438793629871
+      spriteID: 7eb957e3be1536a00800000000000000
+      internalID: 748532033880693735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_113
+      name: Special2_113
       rect:
         serializedVersion: 2
         x: 1024
@@ -3018,14 +3051,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5806c8ae696573d10800000000000000
-      internalID: 2105246556999147653
+      spriteID: e0bbdb9800dbd1770800000000000000
+      internalID: 8583224274846595854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_114
+      name: Special2_114
       rect:
         serializedVersion: 2
         x: 1152
@@ -3040,14 +3073,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e32d8893f0cbb71a0800000000000000
-      internalID: -6810643237891943874
+      spriteID: 1da06d13ecd8ab830800000000000000
+      internalID: 4087735528531036881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_115
+      name: Special2_115
       rect:
         serializedVersion: 2
         x: 1280
@@ -3062,14 +3095,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01653617277a47990800000000000000
-      internalID: -7389096978637695472
+      spriteID: c724a105a851e6e60800000000000000
+      internalID: 7957321275403813500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_116
+      name: Special2_116
       rect:
         serializedVersion: 2
         x: 1408
@@ -3084,14 +3117,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c3a29c16b0e1a80e0800000000000000
-      internalID: -2266966428193576388
+      spriteID: 7bcf28f24c408ff80800000000000000
+      internalID: -8072697091404399433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_117
+      name: Special2_117
       rect:
         serializedVersion: 2
         x: 1536
@@ -3106,14 +3139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cd70b2c4c791ea310800000000000000
-      internalID: 1418098954312812508
+      spriteID: a6ff1802aac4be8f0800000000000000
+      internalID: -510229839202877590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_118
+      name: Special2_118
       rect:
         serializedVersion: 2
         x: 1664
@@ -3128,14 +3161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f52cb79f227f3dc70800000000000000
-      internalID: 8994804610375598687
+      spriteID: 96aaadc024b989f40800000000000000
+      internalID: 5735504833442130537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick_119
+      name: Special2_119
       rect:
         serializedVersion: 2
         x: 1792
@@ -3150,8 +3183,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5efdbcf223e8468b0800000000000000
-      internalID: -5159842926858346523
+      spriteID: 348462b64cc459d30800000000000000
+      internalID: 4437537414338463811
       vertices: []
       indices: 
       edges: []
@@ -3160,7 +3193,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 24bde9aa2e088ca49ac956998d0f3eed
+    spriteID: f23fbdbaf81f3c748b8e3035539b7267
     internalID: 0
     vertices: []
     indices: 
@@ -3170,128 +3203,128 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":128.0,"y":128.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Kick_0: 4875550202295362856
-      Kick_1: 7382034801322492081
-      Kick_10: -3130122043592584391
-      Kick_100: -3357011088158948144
-      Kick_101: 1075507650673402332
-      Kick_102: -6000757952218528778
-      Kick_103: -6843757243696751775
-      Kick_104: 268879620965417464
-      Kick_105: -4793709833487669161
-      Kick_106: 675303480682272361
-      Kick_107: 6067488920932953683
-      Kick_108: -3603929609555661270
-      Kick_109: 1882164786322147159
-      Kick_11: -1184338038214779424
-      Kick_110: -853935072052737882
-      Kick_111: -2497510523561717982
-      Kick_112: 6198950438793629871
-      Kick_113: 2105246556999147653
-      Kick_114: -6810643237891943874
-      Kick_115: -7389096978637695472
-      Kick_116: -2266966428193576388
-      Kick_117: 1418098954312812508
-      Kick_118: 8994804610375598687
-      Kick_119: -5159842926858346523
-      Kick_12: -6278379700893849238
-      Kick_13: -2329759627579760923
-      Kick_14: -8731451342485663347
-      Kick_15: 1758862618882075845
-      Kick_16: -4739176893017749648
-      Kick_17: -7587724472594246672
-      Kick_18: 3925823642134178883
-      Kick_19: -7424675351201738324
-      Kick_2: 3640076384215072705
-      Kick_20: 2940217539679394119
-      Kick_21: -4167057831420378153
-      Kick_22: -2252206954677251430
-      Kick_23: -3278472320177172867
-      Kick_24: -7871122585674940944
-      Kick_25: 2770282508368533559
-      Kick_26: -6505984805256772458
-      Kick_27: -5135661782472528759
-      Kick_28: 4776322614497421682
-      Kick_29: -6359660778412559074
-      Kick_3: -5744143365864270874
-      Kick_30: 3969365098454579327
-      Kick_31: 7364034447000363697
-      Kick_32: -5937058321480096244
-      Kick_33: 2112388846829592753
-      Kick_34: -6810268207112100259
-      Kick_35: -3981618612978135638
-      Kick_36: 7068607032678475297
-      Kick_37: -1869642885893667781
-      Kick_38: 7651993739971860731
-      Kick_39: 8240018675257941764
-      Kick_4: -7484144780416948975
-      Kick_40: -9005281627751113342
-      Kick_41: 3248501593303394810
-      Kick_42: -3810322179372027113
-      Kick_43: 1268547231836127592
-      Kick_44: 238645374277502217
-      Kick_45: 3549382180739583855
-      Kick_46: 3075367277012205919
-      Kick_47: -308950364216248243
-      Kick_48: -1255472037287010649
-      Kick_49: -4501335001233255172
-      Kick_5: -4347578519165869139
-      Kick_50: -7977118608748228579
-      Kick_51: 5999699660555418751
-      Kick_52: -3116682143974281607
-      Kick_53: 2847356777041489661
-      Kick_54: -2613113307084715381
-      Kick_55: 4685421517959110566
-      Kick_56: 3179020469037808874
-      Kick_57: -8286538191473350673
-      Kick_58: -2686716513450129563
-      Kick_59: 3339459830459646191
-      Kick_6: -6500147261662118090
-      Kick_60: -6110891247478702202
-      Kick_61: -6556703268762688167
-      Kick_62: 7251059502453073306
-      Kick_63: -6911509367171999994
-      Kick_64: -4445116623542283175
-      Kick_65: -8648281642174068681
-      Kick_66: 4973895548577131846
-      Kick_67: -5463355068963133117
-      Kick_68: -4196343815666612418
-      Kick_69: 5884461646573826522
-      Kick_7: -4513392813365026625
-      Kick_70: 8367838434712239679
-      Kick_71: 5471944767195386833
-      Kick_72: -6145912367683719367
-      Kick_73: 4298759251804231530
-      Kick_74: -2603292104294591435
-      Kick_75: -8484719476944776590
-      Kick_76: 8443718771696296413
-      Kick_77: -5315174322142030005
-      Kick_78: -8375909799440011323
-      Kick_79: 5663072130928281157
-      Kick_8: 2373574331434663591
-      Kick_80: -5252797724122942427
-      Kick_81: 3151777071854884341
-      Kick_82: 1000262339358072460
-      Kick_83: -1035734630405183642
-      Kick_84: 6282269460116976416
-      Kick_85: 7591130084371667291
-      Kick_86: 7323558474999384293
-      Kick_87: 5305662707708013074
-      Kick_88: -6279808519638660304
-      Kick_89: -1592582032535494678
-      Kick_9: -694122209341000648
-      Kick_90: 2432671286902158037
-      Kick_91: -8249641336187882781
-      Kick_92: 6873026007485832739
-      Kick_93: -8379961527138072690
-      Kick_94: 820464020854992596
-      Kick_95: -6834551127082495971
-      Kick_96: -6242769092921517531
-      Kick_97: -4340561105458600748
-      Kick_98: 7259202979069582839
-      Kick_99: 6619545503148090890
+      Special2_0: -8298685195069441819
+      Special2_1: -1696729246735065327
+      Special2_10: -7194763331755007088
+      Special2_100: 3903115556844474425
+      Special2_101: 1122541033014382175
+      Special2_102: -1278188387937326379
+      Special2_103: -9165350643793166728
+      Special2_104: -3701166909750385171
+      Special2_105: 1724664983178265091
+      Special2_106: -4522771616175603571
+      Special2_107: -541903845612220518
+      Special2_108: -953574025372362470
+      Special2_109: -8217245282354822768
+      Special2_11: 554742850918253206
+      Special2_110: 9149818702501409375
+      Special2_111: 308970528069359473
+      Special2_112: 748532033880693735
+      Special2_113: 8583224274846595854
+      Special2_114: 4087735528531036881
+      Special2_115: 7957321275403813500
+      Special2_116: -8072697091404399433
+      Special2_117: -510229839202877590
+      Special2_118: 5735504833442130537
+      Special2_119: 4437537414338463811
+      Special2_12: 7454194865069467775
+      Special2_13: -6806556548993896902
+      Special2_14: 701780430659607965
+      Special2_15: 3456033996670821942
+      Special2_16: 7684853331597899148
+      Special2_17: -8367947988998266055
+      Special2_18: 2697516593447761044
+      Special2_19: -2516231077128870881
+      Special2_2: -1177770263980298458
+      Special2_20: 147319670599869846
+      Special2_21: -8804723356967403588
+      Special2_22: 7279620984182690018
+      Special2_23: 8525734669725030621
+      Special2_24: 5952160076925432589
+      Special2_25: -1836046451528676168
+      Special2_26: -1751621028830496325
+      Special2_27: 1865552475754041016
+      Special2_28: 7466662142071662087
+      Special2_29: -3356844014341875517
+      Special2_3: 1032067396587285794
+      Special2_30: 1768591005174250021
+      Special2_31: 3907333705176058172
+      Special2_32: -7067711008996013862
+      Special2_33: 8901818231263728415
+      Special2_34: 176976346486066882
+      Special2_35: 7031438223813284455
+      Special2_36: -2648777050782761689
+      Special2_37: -6731235430704020042
+      Special2_38: -1114674095467741326
+      Special2_39: 1957748075151790990
+      Special2_4: -9159893258833561376
+      Special2_40: 8087169682444230152
+      Special2_41: 4886570436377177413
+      Special2_42: -7419780530146987876
+      Special2_43: -8932906558185417391
+      Special2_44: 6653649422367408683
+      Special2_45: -5285548471967437739
+      Special2_46: -7747166018119635165
+      Special2_47: -5496512191668604231
+      Special2_48: -1584605168476386041
+      Special2_49: 738876408606686715
+      Special2_5: 3588063796271022305
+      Special2_50: -2155144212775051430
+      Special2_51: 8307390463249611619
+      Special2_52: 4658546153753155743
+      Special2_53: -3471801063329620126
+      Special2_54: -323654493064420997
+      Special2_55: -2974422173897016684
+      Special2_56: -3928065119259260145
+      Special2_57: -5812786820549139246
+      Special2_58: -2880836866290704347
+      Special2_59: -1865505350208377297
+      Special2_6: -4804316998213659337
+      Special2_60: 6421724606719614083
+      Special2_61: -8445265536396784935
+      Special2_62: -5420681810806970141
+      Special2_63: 1430423946484221191
+      Special2_64: -8611923657012402739
+      Special2_65: 6469969763757822872
+      Special2_66: -2780383120322504227
+      Special2_67: -6323670176524334923
+      Special2_68: 7523645699166234760
+      Special2_69: 2589397033995274795
+      Special2_7: -1767751816361314575
+      Special2_70: 2251883895069317535
+      Special2_71: 3661911353944105691
+      Special2_72: 3584824426683151681
+      Special2_73: -8450683587016715302
+      Special2_74: -572525660984194861
+      Special2_75: 8806520638114982235
+      Special2_76: 9193732695975961360
+      Special2_77: 5072360747815627725
+      Special2_78: 393182252818290718
+      Special2_79: -5784528250104488584
+      Special2_8: -7130678533447561262
+      Special2_80: -9037826709670677437
+      Special2_81: 4405404263269779291
+      Special2_82: -8233102231722483096
+      Special2_83: 7660344773437867544
+      Special2_84: -1200674352320035827
+      Special2_85: 8861278825119903664
+      Special2_86: -6362058098318268122
+      Special2_87: 3737873413915199794
+      Special2_88: -1018593576659610457
+      Special2_89: -1089913628004195457
+      Special2_9: 519951430950448383
+      Special2_90: -7775117572499025546
+      Special2_91: -8499902428869585813
+      Special2_92: 3020251036962715851
+      Special2_93: -1983323132154289609
+      Special2_94: 1631522880293182590
+      Special2_95: 571785101075563433
+      Special2_96: -3165278354092364528
+      Special2_97: -5548512861092087041
+      Special2_98: 8502967606070623015
+      Special2_99: -566755187651895301
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

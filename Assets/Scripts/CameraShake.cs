@@ -3,14 +3,14 @@ using UnityEngine;
 
 public class CameraShake : MonoBehaviour
 {
-    public static CameraShake Instance { get; private set; }
+    public static CameraShake Instance { get; private set; }        // Classe para a câmera em âncora ao Special2 do PlayerController.cs
 
     // Offset atual do shake. O CameraFollow lê isso e soma na posição.
     public Vector3 CurrentOffset { get; private set; } = Vector3.zero;
 
     private Coroutine shakeRoutine;
 
-    private void Awake()
+    private void Awake()        // Método disparador do início.
     {
         if (Instance != null && Instance != this)
         {

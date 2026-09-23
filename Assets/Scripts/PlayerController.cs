@@ -1,36 +1,33 @@
 using System.Collections;
-using Unity.VisualScripting;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D))]
-[RequireComponent(typeof(Animator))]
-[RequireComponent(typeof(SpriteRenderer))]
-public class PlayerController : MonoBehaviour
+[RequireComponent(typeof(Rigidbody2D))] // Como exploramos o battlefield, é mais que importante inserir isso como requisito.
+[RequireComponent(typeof(Animator))] // Temos animações e triggers e bools para elas. Outro comando importante a ser inserido.
+[RequireComponent(typeof(SpriteRenderer))] // Renderizador de sprite 2D para o projeto.
+
+public class PlayerController : MonoBehaviour // Classe principal do arquivo. Não mexe nisso em nome de Jesus!
 {
-    private static readonly int LastMoveYHash = Animator.StringToHash("LastMoveY");
+    public PlayerState CurrentState { get; private set; } = PlayerState.Idle; // Estado inicial da gameplay e do Animator.
 
-    public PlayerState CurrentState { get; private set; } = PlayerState.Idle;
-
-    [Header("Velocidades")]
+    [Header("Velocidades")] // String de valores de velocidades que os estados de movimentação possuem.
     public float walkSpeed = 5f;
     public float runSpeed = 10f;
-    public float crouchSpeed = 3f;
-    public float rollForce = 15f;
-    public float JumpForce = 10f;
+    public float crouchSpeed = 2f;
+    public float rollForce = 7f;
+    public float JumpForce = 7f;
+    public float kickSpeed = 3f;
 
-    [Header("Combate")]
-    public int attackDamage = 5;
-    public int quickShotDamage = 10;
-    public int quickSlideDamage = 5;
-    public int specialDamage = 20;
-    public int screamDamage = 10;
+    [Header("Combate")]                 // String de valores de dano.
+                                        // Aplicação de dano exercido pelo Player a entidades que forem inseridas no futuro.
+    public int attackDamage = 5;        // Ataque com a tecla F, meio que é o "Main Attack".
+    public int quickShotDamage = 7;     // O jogador futuramente vai lançar o machado na direção que olhar.
+                                        // Não achei nenhum asset que combina, então, deixamos pro futuro.
+    public int quickSlideDamage = 3;    // Dano para quebrar vasos e caixas de madeiras que forem inseridas.
+    public int specialDamage = 15;      // Special1 e Special2 usam a mesma âncora
+    public int screamDamage = 0;        // Está em zero, pois podemos trazer criaturas que fujam do jogador futuramente.
+    public int kickDamage = 3;
 
-    [Header("Vida")]
-    public int maxHealth = 5;
-    public int currentHealth;
-
-    [Header("Tempos de Estado (segundos)")]
+    [Header("Tempos de Estado (segundos)")] // String que trazemos no insepctor o tempo de estado em segundos.
     public float attackDuration = 0.4f;
     public float quickShotDuration = 0.5f;
     public float quickSlideDuration = 0.5f;
@@ -43,62 +40,55 @@ public class PlayerController : MonoBehaviour
     public float specialDuration = 1.0f;
     public float takeDamageDuration = 0.4f;
     public float unSheathDuration = 0.8f;
+    public float kickDuration = 0.4f;
 
-    [Header("Efeitos Especiais")] // Usado para as animações Special1 e Special2.
+    [Header("Efeitos Especiais")]   // Ainda não conseguir fazer essa string ficar funcional 100%
     public GameObject special1EffectPrefab;
     public GameObject special2EffectPrefab;
     public float specialEffectDuration = 1f;
 
-    [Header("Screen Shake")] // Exclusivo para o Special2. Isso aqui faz a tela sacudir, kkkkk
+    [Header("Screen Shake")]        // String para sacudir a tela enquanto o Special2 for executado. Combinaria com o JumpAttack? :thinking:
     public float special2ShakeDuration = 0.3f;
     public float special2ShakeMagnitude = 0.2f;
 
     [Header("Referências")]
-    public Transform attackPoint;
-    public float attackRange = 1.2f; // Alcance do dano feito pelo jogador.
-    // Há partes do Foreground que o jogador passa e se esconde.
-    // Isso aqui faz a chama independente da layer que esteja, dará dano ao jogador.
-    public LayerMask enemyLayers;
+    public Transform attackPoint;       // Declaração de variável usada para todas os bools (true/false) que são para dar dano.
+    public float attackRange = 1.2f;    // 1 tile e 1/5 de range de dano para a direção que olhamos para qualquer alvo.
+    public LayerMask enemyLayers;       // Inimigos precisariam estar nessa camada (Que o jogador estiver ) para receber dano.
 
-    // Precisa ter isso para o jogador e outros elementos terem limites de movimentação no campo de batalha.
+    // Variáveis privadas para referenciar componentes da Unity. Ao botar esse script no Player, automaticamente são implementados.
     private Rigidbody2D rb;
     private Animator anim;
     private SpriteRenderer sr;
 
-    private Vector2 moveInput; // Entradas do Teclado para o jogador...
-    private Vector2 lastMoveDirection = Vector2.right; // O jogador inicia olhando pra direita.
+    private Vector2 moveInput;      // X e Y. moveInput é a variável de entrada do teclado. :smile:
+    private Vector2 lastMoveDirection = Vector2.right;  // O jogo começa com o jogador olhando pra direita.
 
-    private bool isRunning;
-    private bool isCrouching;
+    private bool isRunning;         // true/false para estado de corrida.
+    private bool isCrouching;       // true/false para estado de agachar.
 
-    private float stateTimer;
-    private bool isStateLocked;
-    private bool isInvulnerable;
-    private bool specialsLoaded;
-    private Color originalColor;
-    private Coroutine glowRoutine;
+    private float stateTimer;       // Variável para guardar em decimal a duração dos estados de máquina.
+    private bool isStateLocked;     // Existem estados no jogo que o jogador não pode executar outros.
+    private bool isInvulnerable;    // Há estados no jogo que protege o jogador de receber dano ou um dano maior que ele deveria receber.
+    private bool specialsLoaded;    // Usado na variável Scream, o jogador precisa usar a tecla Q para executar.
+    private Color originalColor;    // Usado para fazer a cor padrão do jogador ser a que está sendo executada.
+    private Coroutine glowRoutine;  // Precisa da variável de cima, com alguns estados ter transformações de cor enquanto a animação executa.
+    private float knockbackTimer;   // Tempo de knockback, estado que faz o jogador ser lançado para a direção oposta quando recebe dano ou segura dano. O jogador não se move enquanto isso executa.
 
-    // Timer interno de knockback: bloqueia o movimento e input (redundante kkkk) enquanto durar a animação de dano (Não está aqui)
-    // Essa parte confere o HP do jogador se ele toma dano, e então se não tiver mais HP disponível ele vai...
-    // ... conferir o PlayerState.Die abaixo.
-    private float knockbackTimer;
-
-    private void Awake()
+    private void Awake()            // Método que é usado quando o objeto inicializa. Todos os componentes abaixo são os que o jogo usa em geral.
+                                    // É o método que salva a minha vida, kkkk
     {
-        rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
-        sr = GetComponent<SpriteRenderer>();
-        originalColor = sr.color; // quando o jogador recebe dano, 
-        currentHealth = maxHealth;
+        rb = GetComponent<Rigidbody2D>();       // componente que define limites de interação físicas.
+        anim = GetComponent<Animator>();        // responsável no GameObject para executar animações.
+        sr = GetComponent<SpriteRenderer>();    // responsável em renderizar os objetos gráficos em sprites. poderia ter flip.X (para espelhar em horizontal a imagem)
+        originalColor = sr.color;
     }
 
     private void Update()
     {
-        if (CurrentState == PlayerState.Die) return;
+        if (CurrentState == PlayerState.Die) return;    // Estado de morte. Confira e defina a quantidade de vida na classe PlayerHealth.cs
 
-        // Knockback quando o jogador recebe dano. Isso aqui vai evitar danos extras se o jogador ficar parado em cima do alvo...
-        // Por sinal, isso trava o teclado, "punindo" o jogador.
-        if (knockbackTimer > 0f)
+        if (knockbackTimer > 0f)                        // Responsável em fazer o jogador não se mover)
         {
             knockbackTimer -= Time.deltaTime;
             return;
@@ -125,22 +115,20 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        // Knockback ativo: não sobrescreve a velocity do empurrão
         if (knockbackTimer > 0f) return;
-
         ApplyMovement();
     }
 
-    private void ReadInput() // Leitura de outras animações para a última posição do Idle e serem salvas.
+    private void ReadInput()                            // Leitor de entradas de movimentação em geral.
     {
-        moveInput.x = Input.GetAxisRaw("Horizontal");
+        moveInput.x = Input.GetAxisRaw("Horizontal");   
         moveInput.y = Input.GetAxisRaw("Vertical");
 
         isRunning = Input.GetKey(KeyCode.LeftShift) && moveInput.magnitude > 0.1f;
         isCrouching = Input.GetKey(KeyCode.C);
     }
 
-    private void UpdateDirection() // Para outras animações usarem a última posição do Idle e serem salvas.
+    private void UpdateDirection()
     {
         if (knockbackTimer > 0f) return;
 
@@ -166,39 +154,39 @@ public class PlayerController : MonoBehaviour
         anim.SetBool("isCrouchWalking", isCrouching && isMoving);
     }
 
-    // Os atalhos do teclado para todas as funções de comportamento complexo.
-    // É necessário deixar exclusivo essa parte, justamente para evitar equívocos.
     private void EvaluateTransitions()
     {
+        // JumpAttack executa ao se movimentar MENOS se estiver agachado/agachandoAndando.
         if (Input.GetKeyDown(KeyCode.Space) && !isCrouching) { EnterJumpAttack(); return; }
 
         if (Input.GetKeyDown(KeyCode.F)) { EnterAttack(); return; }
         if (Input.GetKeyDown(KeyCode.Y)) { EnterQuickShot(); return; }
 
-        // Trava pro QuickSlide. Ele só executa se eu estiver agachado me movimentando.
-        if (Input.GetKeyDown(KeyCode.V) && isCrouching && moveInput.magnitude > 0.1f)
+        // Kick só executa em pé (sendo idle ou walk/run), nunca agachado. Não tenho problema em pessoas agachadas, mas o ideal é ter lógica nas coisas.
+        if (Input.GetKeyDown(KeyCode.X) && !isCrouching) { EnterKick(); return; }
+
+        if (Input.GetKeyDown(KeyCode.V) && isCrouching && moveInput.magnitude > 0.1f) // A prova que eu não tenho nada contra com quem anda agachado. Você desliza ao andar agachado.
         {
             EnterQuickSlide(); return;
         }
 
-        // Travas de movimento (Mais atalho de comando) do Scream.
-        if (Input.GetKeyDown(KeyCode.Q) && moveInput.magnitude < 0.1f && !isCrouching && !isRunning)
+        if (Input.GetKeyDown(KeyCode.Q) && moveInput.magnitude < 0.1f && !isCrouching && !isRunning) // Só executa andando ou idle.
         {
             EnterScream(); return;
         }
 
-        if (Input.GetKeyDown(KeyCode.G)) { EnterPummel(); return; }
+        if (Input.GetKeyDown(KeyCode.G)) { EnterPummel(); return; } // Não inserido. Vou deixar pro futuro.
 
-        if (Input.GetKeyDown(KeyCode.E) && moveInput.magnitude > 0.1f)
+        if (Input.GetKeyDown(KeyCode.E) && moveInput.magnitude > 0.1f) // Só executa andando. Esse aqui é o Rolling.
         {
             EnterRolling(); return;
         }
 
-        if (Input.GetKeyDown(KeyCode.Tab)) { EnterUnSheath(); return; }
-        if (Input.GetKeyDown(KeyCode.R) && specialsLoaded) { EnterSpecial1(); return; }
-        if (Input.GetKeyDown(KeyCode.T) && specialsLoaded) { EnterSpecial2(); return; }
+        if (Input.GetKeyDown(KeyCode.Tab)) { EnterUnSheath(); return; } // Não inserido.
+        if (Input.GetKeyDown(KeyCode.R) && specialsLoaded) { EnterSpecial1(); return; } // Tecla R
+        if (Input.GetKeyDown(KeyCode.T) && specialsLoaded) { EnterSpecial2(); return; } // Tecla T
 
-        if (isCrouching)
+        if (isCrouching) // Tecla C.
         {
             if (moveInput.magnitude > 0.1f) EnterCrouchRun();
             else EnterCrouchIdle();
@@ -216,10 +204,11 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    // Movimentações básicas do jogador.
     private void ApplyMovement()
     {
-        if (isStateLocked) return;
+        // Decidi fazer uma exceção; durante o Kick o player pode se mover (devagarinho),
+        // então NÃO bloqueia o movimento mesmo com isStateLocked == true.
+        if (isStateLocked && CurrentState != PlayerState.Kick) return;
 
         float speed = 0f;
         switch (CurrentState)
@@ -227,60 +216,55 @@ public class PlayerController : MonoBehaviour
             case PlayerState.Walk: speed = walkSpeed; break;
             case PlayerState.Run: speed = runSpeed; break;
             case PlayerState.CrouchRun: speed = crouchSpeed; break;
-            case PlayerState.RunBackwards: speed = walkSpeed; break; // Não sei qual atalho iria ser cabível para isso aqui.
-            default: speed = 0f; break; // Por motivos óbvios, a velocidade do Idle será 0 pq o jogador está parado.
+            case PlayerState.RunBackwards: speed = walkSpeed; break;
+            case PlayerState.Kick: speed = kickSpeed; break;
+            default: speed = 0f; break;
         }
 
         rb.linearVelocity = moveInput.normalized * speed;
     }
 
-    private void EnterIdle()
+    private void EnterIdle()        // Estado Idle.
     {
         SetState(PlayerState.Idle);
         rb.linearVelocity = Vector2.zero;
         anim.SetFloat("Speed", 0f);
     }
 
-    // Só em ler o método (EnterWalk) sabemos o que é. Sem mais explicações.
-    private void EnterWalk()
+    private void EnterWalk()        // Estado de caminhar (Walk).
     {
         SetState(PlayerState.Walk);
         anim.SetFloat("Speed", 1f);
     }
 
-    // Use Shift para correr. Pode-se iniciar do Idle ou do Walk.
-    private void EnterRun()
+    private void EnterRun()         // Estado de corrida (Run)
     {
         SetState(PlayerState.Run);
         anim.SetFloat("Speed", 2f);
     }
 
-    // Agachar com a tecla C. Pode-se movimentar usando as teclas de direção.
-    private void EnterCrouchIdle()
+    private void EnterCrouchIdle()  // Estado de Agachar (parado)
     {
         SetState(PlayerState.CrouchIdle);
         rb.linearVelocity = Vector2.zero;
         anim.SetFloat("Speed", 0f);
     }
 
-    // Estado agachado com movimento. Decidi reduzir a velocidade pois não tem sentido correr agachado.
-    private void EnterCrouchRun()
+    private void EnterCrouchRun()   // Estado de Agachar andando.
     {
         SetState(PlayerState.CrouchRun);
         anim.SetFloat("Speed", 0.5f);
     }
 
-    // Ataque base (Melee) do personagem. Tecla F é um ótimo atalho, não?
-    private void EnterAttack()
+    private void EnterAttack()      // Estado de atacar.
     {
         SetState(PlayerState.Attack);
         LockState(attackDuration);
         anim.SetTrigger("Attack");
-        DealDamageInFront(attackDamage);
+        DealDamageInFront(attackDamage);    // Só ataca na direção do jogador. Está definido no topo que é 1,2 tiles.
     }
 
-    // Ainda não inserido. Como diabos essa seria inserida? kkkkkk
-    private void EnterQuickShot()
+    private void EnterQuickShot()           // Não inserido. Não achei nenhum asset de machado para completar isso aqui.
     {
         SetState(PlayerState.QuickShot);
         LockState(quickShotDuration);
@@ -288,9 +272,7 @@ public class PlayerController : MonoBehaviour
         DealDamageInFront(quickShotDamage);
     }
 
-    // QuickSlide precisa estar com o Crouch e CrouchWalk antecipados para executar.
-    // Funcionando corretamente, mas o sprite está maior queo normal. Não sei como diminuir o tamanho do sprite... Mantenha como está.
-    private void EnterQuickSlide()
+    private void EnterQuickSlide()          // Deslizar enquanto está agachado se movendo.
     {
         SetState(PlayerState.QuickSlide);
         LockState(quickSlideDuration);
@@ -299,9 +281,15 @@ public class PlayerController : MonoBehaviour
         DealDamageInFront(quickSlideDamage);
     }
 
-    // Animação feita para recarregar os speciais também. Eu poderia trazer algo futuramente que aumente mais o dano do Ataque físico.
-    // Scream está substituindo o UnSheath.
-    private void EnterScream()
+    private void EnterKick()                // Chutar. Nada mais a declarar aqui, kkkk  
+    {
+        SetState(PlayerState.Kick);
+        LockState(kickDuration);
+        anim.SetTrigger("Kick");
+        DealDamageInFront(kickDamage);
+    }
+
+    private void EnterScream()              // Scream (gritar) Observe as outras variáveis abaixo.
     {
         SetState(PlayerState.Scream);
         LockState(screamDuration);
@@ -310,8 +298,7 @@ public class PlayerController : MonoBehaviour
         StartCoroutine(LoadSpecialsAfterDelay());
     }
 
-    // Ainda não inserido no Unity. Confira a sprite sheet para ver o que vai dar pra fazer...
-    private void EnterPummel()
+    private void EnterPummel()              // Não inserido.
     {
         SetState(PlayerState.Pummel);
         LockState(pummelDuration);
@@ -319,8 +306,7 @@ public class PlayerController : MonoBehaviour
         DealDamageInFront(attackDamage);
     }
 
-    // Inserido no Unity e muito bem executado!
-    private void EnterJumpAttack()
+    private void EnterJumpAttack()          // JumpAttack, um dos melhores front moves que estão no projeto.
     {
         SetState(PlayerState.JumpAttack);
         LockState(JumpAttackDuration);
@@ -328,8 +314,7 @@ public class PlayerController : MonoBehaviour
         rb.linearVelocity = moveInput.normalized * JumpForce;
     }
 
-    // Ainda não inserido no Unity.
-    private void EnterRolling()
+    private void EnterRolling()             // Rolling, estado que funciona andando e correndo.
     {
         SetState(PlayerState.Rolling);
         LockState(rollingDuration);
@@ -338,9 +323,7 @@ public class PlayerController : MonoBehaviour
         rb.linearVelocity = moveInput.normalized * rollForce;
     }
 
-    // Animação de recarregar os ataques especiais.
-    // Animação ainda não inserida, pois faz mais sentido o uso da animação Scream ter um efeito melhor para um herói Melee.
-    private void EnterUnSheath()
+    private void EnterUnSheath()            // Não inserido.
     {
         SetState(PlayerState.UnSheath);
         LockState(unSheathDuration);
@@ -348,14 +331,13 @@ public class PlayerController : MonoBehaviour
         StartCoroutine(LoadSpecialsAfterDelay());
     }
 
-    // Após a animação de qualquer estado, o Enum precisa definir os tempos (EM 0f) para todos eles.
-    private IEnumerator LoadSpecialsAfterDelay()
+    private IEnumerator LoadSpecialsAfterDelay()    // Definir limites de tempo para os Special1 e Special2 forem inseridos. Scream tem isso também.
     {
         yield return new WaitForSeconds(unSheathDuration);
         specialsLoaded = true;
     }
 
-    private void EnterSpecial1()
+    private void EnterSpecial1()        // Special1 com a tecla R. Só ativa com o Scream ativado.
     {
         SetState(PlayerState.Special1);
         LockState(specialDuration);
@@ -363,11 +345,10 @@ public class PlayerController : MonoBehaviour
         StartGlow(Color.purple, specialDuration);
         anim.SetTrigger("Special1");
         DealDamageInFront(specialDamage);
-
-        SpawnEffect(special1EffectPrefab); // Aqui eu posso fazer esse estado trazer alguma animação extra, como um AoE.
+        SpawnEffect(special1EffectPrefab);
     }
 
-    private void EnterSpecial2()
+    private void EnterSpecial2()        // Special2 com a tecla T. Só ativa com o Scream ativado.
     {
         SetState(PlayerState.Special2);
         LockState(specialDuration);
@@ -375,105 +356,80 @@ public class PlayerController : MonoBehaviour
         StartGlow(Color.blue, specialDuration);
         anim.SetTrigger("Special2");
         DealDamageInFront(specialDamage);
-
         SpawnEffect(special2EffectPrefab);
 
-        if (CameraShake.Instance != null)
+        if (CameraShake.Instance != null) // Consertar isso aqui.
             CameraShake.Instance.Shake(special2ShakeDuration, special2ShakeMagnitude);
     }
 
-    public void TakeDamage(int damage) 
-    {
-        if (isInvulnerable || CurrentState == PlayerState.Die) return;
-        // Inseri isso aqui para o jogador não receber mais dano que o normal.
-        // Se você entra em contato com a chama, você piscará vermelho e se afastará do alvo que lhe deu dano.
-
-        currentHealth -= damage;
-        StartCoroutine(GlowRoutine(Color.red, takeDamageDuration));
-
-        if (currentHealth <= 0)
-        {
-            EnterDie();
-            return;
-        }
-
-        SetState(PlayerState.TakeDamage);
-        LockState(takeDamageDuration);
-        anim.SetTrigger("TakeDamage");
-    }
-
-    // âncora matriz da animação de morte.
-    private void EnterDie()
+    private void EnterDie()             // Player morre.
     {
         SetState(PlayerState.Die);
-        isStateLocked = true;
-        rb.linearVelocity = Vector2.zero;
+        isStateLocked = true;                   // Estado trava qualquer outro que tentar trazer. Não deixe nenhuma passada pra outro estado no Animator.
+        rb.linearVelocity = Vector2.zero;       // Faz o jogador não sair do lugar, já que o Vector2 está com valor zero.
         anim.SetTrigger("Die");
     }
 
-    private void DealDamageInFront(int damage)
+    private void DealDamageInFront(int damage)  // Dar dano.
     {
         if (attackPoint == null) return;
 
-        Collider2D[] hits = Physics2D.OverlapCircleAll(
-            attackPoint.position, attackRange, enemyLayers);
+        Collider2D[] hits = Physics2D.OverlapCircleAll(     // "range" para detectar objetos que recebem/dão dano.
+            attackPoint.position, attackRange, enemyLayers); // Checa os colliders no alcance.
 
-        foreach (var hit in hits) // Bloqueia o jogador de receber mais dano que o esperado, NÃO REMOVE ISSO EM NOME DE JESUS!!!
+        foreach (var hit in hits)       // Loop que confere a variável hit em hits (Um overlap para todos os objetos com Collider?).
         {
-            hit.GetComponent<EnemyHealth>()?.TakeDamage(damage);
+            hit.GetComponent<EnemyHealth>()?.TakeDamage(damage); // Vai conferir qualquer entidade que tenha o script EnemyHealth.
         }
     }
 
-    private void SetState(PlayerState newState) // Aguarda o jogador acessar outros estados de máquina, evitando conflitos.
+    private void SetState(PlayerState newState) // Após o estado executar algo, chama um enum como idle, walk, etc...
     {
         if (CurrentState == newState) return;
-        CurrentState = newState;
+        CurrentState = newState;        // Aqui tá a mágica. Ele meio que joga pro Animator o que precisa fazer.
     }
 
-    private void LockState(float duration) // Privado, pois somente o Player vai ter acesso a isso.
+    private void LockState(float duration)  // Tempo de execução das animações.
     {
         isStateLocked = true;
-        stateTimer = duration; // Fazer os testes de animação para verificar se está fluindo bem. Definir novos valores caso esteja ruim.
+        stateTimer = duration;
     }
 
-    private void DecideDefaultState()
+    private void DecideDefaultState() // O jogador terminou um estado (Attack, Kick, TakeDamage, etc.). Pra onde ele vai agora?
     {
-        if (moveInput.magnitude > 0.1f)
+        if (moveInput.magnitude > 0.1f) // velocidade acima de 0.1f
         {
             if (isCrouching) EnterCrouchRun();
             else if (isRunning) EnterRun();
             else EnterWalk();
         }
-        else
+        else    // Ou
         {
             if (isCrouching) EnterCrouchIdle();
             else EnterIdle();
         }
     }
 
-    // Âncora para o jogador brilhar enquanto recebe dano. Tive que por isso aqui pra realmente funcionar.
-    private void StartGlow(Color color, float duration)
+    private void StartGlow(Color color, float duration) // aqui é onde a magia acontece². Esse método sem retorno é quais são as animações que vão ter cores exclusivas.
     {
         if (glowRoutine != null) StopCoroutine(glowRoutine);
         glowRoutine = StartCoroutine(GlowRoutine(color, duration));
     }
 
-    private IEnumerator GlowRoutine(Color color, float duration)
+    private IEnumerator GlowRoutine(Color color, float duration)    // Enum que define a duração do tempo dos estados que vão ter cores.
     {
         sr.color = color;
         yield return new WaitForSeconds(duration);
         sr.color = originalColor;
     }
 
-    private void ClearGlow() // Depois de receber dano, o jogador volta à sua cor original (QUANDO SAIR DA ANIMAÇÃO DE TAKEDAMAGE)
+    private void ClearGlow()        // Método que reseta para a cor original do sprite.
     {
         if (glowRoutine != null) StopCoroutine(glowRoutine);
         sr.color = originalColor;
     }
 
-    public bool IsInvulnerable => isInvulnerable;
-
-    private void SpawnEffect(GameObject prefab)
+    private void SpawnEffect(GameObject prefab)     // Quando o jogador entra numa fase OU morre, ao resetar a partida, você reinicia na posição original.
     {
         if (prefab == null) return;
 
@@ -481,12 +437,14 @@ public class PlayerController : MonoBehaviour
         Destroy(fx, specialEffectDuration);
     }
 
-    // Solução para ancorar a classe PlayerHealth.cs a esse código aqui, tornando aqui a matriz.
-    public Vector2 LastMoveDirection => lastMoveDirection;
+    // Âncora usada com o PlayerHeath. Aqui trago os condicionais dos estados.
 
-    public void ApplyKnockback(Vector2 direction, float force, float duration)
+    public bool IsInvulnerable => isInvulnerable; // Definição de invulnerabilidade ao tomar dano.
+    public Vector2 LastMoveDirection => lastMoveDirection; // A animação executa conforme a posição estabelecida.
+
+    public void ApplyKnockback(Vector2 direction, float force, float duration) // Knockback executa jogando o player para trás.
     {
-        if (direction.sqrMagnitude < 0.01f) return;
+        if (direction.sqrMagnitude < 0.01f) return; // Um tile para trás. Não há necessidade mais do que isso...
 
         rb.linearVelocity = direction.normalized * force;
         knockbackTimer = duration;
@@ -494,23 +452,24 @@ public class PlayerController : MonoBehaviour
         stateTimer = duration;
     }
 
-    public void FlashRed(float duration) // Aqui, dá-se o red glow quando o jogador recebe danod do inimigo.
+    public void FlashRed(float duration) // Ao receber dano, o jogador deverá brilhar vermelho.
     {
-        if (glowRoutine != null) StopCoroutine(glowRoutine);
-        glowRoutine = StartCoroutine(GlowRoutine(Color.red, duration));
+        if (glowRoutine != null) StopCoroutine(glowRoutine); // GlowRoutine é o comando que executa a cor de dano no jogador ou até em um inimigo no futuro.
+        glowRoutine = StartCoroutine(GlowRoutine(Color.red, duration)); // Aqui eu defino qual cor é usada. Não tive interesse em por valores Hex.
     }
-    public void PlayTakeDamageAnimation()
-    // Trigger do TakeDamage. NÃO MUDE ESSA POHA!!!
-    // O de cima não estava fazendo a animação de TakeDamage aparecer, então tive que duplicar pra funcionar...
+
+    public void PlayTakeDamageAnimation() // Execução da animação de receber dano.
     {
+        if (CurrentState == PlayerState.TakeDamage) return;
         SetState(PlayerState.TakeDamage);
-        LockState(takeDamageDuration);
-        anim.SetTrigger("TakeDamage");
+        LockState(takeDamageDuration); // Isso segura tanto o estado de invulnerabilidade quanto o da animação.
+        anim.SetTrigger("TakeDamage"); // Disparador da animação
     }
-    public void Die() // Depois de inserir a animação de receber dano, também é necessário trazer a animação de morte.
+
+    public void Die() // Se o jogador perde os cinco pontos de vida definidos no PlayerHealth, a animação de morte executa.
     {
         if (CurrentState == PlayerState.Die) return;
-        EnterDie();
-        anim.SetBool("isDead", true);
+        EnterDie(); // Jogador morre...
+        anim.SetBool("isDead", true); // Para o animator! Colocar isso aqui em "AnyState" do animator, pfvr.
     }
 }

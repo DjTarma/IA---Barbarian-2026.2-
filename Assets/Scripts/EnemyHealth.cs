@@ -28,7 +28,7 @@ public class EnemyHealth : MonoBehaviour
 
     private Color originalColor;
 
-    private void Awake()
+    private void Awake()            // Método de entrada ao executar o jogo.
     {
         currentHealth = maxHealth;
         if (objectToDestroy == null) objectToDestroy = gameObject;
@@ -37,7 +37,7 @@ public class EnemyHealth : MonoBehaviour
             originalColor = spriteRenderer.color;
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(int damage)  // Receber dano, dããããã
     {
         if (damage <= 0 || currentHealth <= 0) return;
 
@@ -61,7 +61,7 @@ public class EnemyHealth : MonoBehaviour
         OnHealed?.Invoke(amount, currentHealth);
     }
 
-    private void Die()
+    private void Die()              // Dá pra inserir uma animação de morte para cada criatura futuramente.
     {
         OnDeath?.Invoke();
 
