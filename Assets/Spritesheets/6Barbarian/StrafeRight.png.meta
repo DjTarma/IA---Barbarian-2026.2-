@@ -580,12 +580,12 @@ TextureImporter:
       name: StrafeRight_0
       rect:
         serializedVersion: 2
-        x: 53
-        y: 918
-        width: 28
-        height: 57
+        x: 0
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -602,12 +602,12 @@ TextureImporter:
       name: StrafeRight_1
       rect:
         serializedVersion: 2
-        x: 181
-        y: 925
-        width: 28
-        height: 51
+        x: 128
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -624,12 +624,12 @@ TextureImporter:
       name: StrafeRight_2
       rect:
         serializedVersion: 2
-        x: 196
-        y: 918
-        width: 10
-        height: 9
+        x: 256
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -646,12 +646,12 @@ TextureImporter:
       name: StrafeRight_3
       rect:
         serializedVersion: 2
-        x: 309
-        y: 926
-        width: 28
-        height: 50
+        x: 384
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -668,12 +668,12 @@ TextureImporter:
       name: StrafeRight_4
       rect:
         serializedVersion: 2
-        x: 324
-        y: 917
-        width: 10
-        height: 11
+        x: 512
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -690,12 +690,12 @@ TextureImporter:
       name: StrafeRight_5
       rect:
         serializedVersion: 2
-        x: 438
-        y: 924
-        width: 27
-        height: 51
+        x: 640
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -712,12 +712,12 @@ TextureImporter:
       name: StrafeRight_6
       rect:
         serializedVersion: 2
-        x: 452
-        y: 918
-        width: 10
-        height: 9
+        x: 768
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -734,12 +734,12 @@ TextureImporter:
       name: StrafeRight_7
       rect:
         serializedVersion: 2
-        x: 566
-        y: 917
-        width: 28
-        height: 57
+        x: 896
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -756,12 +756,12 @@ TextureImporter:
       name: StrafeRight_8
       rect:
         serializedVersion: 2
-        x: 694
-        y: 927
-        width: 28
-        height: 47
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -778,12 +778,12 @@ TextureImporter:
       name: StrafeRight_9
       rect:
         serializedVersion: 2
-        x: 707
-        y: 918
-        width: 10
-        height: 10
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -800,12 +800,12 @@ TextureImporter:
       name: StrafeRight_10
       rect:
         serializedVersion: 2
-        x: 821
-        y: 917
-        width: 29
-        height: 57
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -822,12 +822,12 @@ TextureImporter:
       name: StrafeRight_11
       rect:
         serializedVersion: 2
-        x: 948
-        y: 916
-        width: 31
-        height: 59
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -844,12 +844,12 @@ TextureImporter:
       name: StrafeRight_12
       rect:
         serializedVersion: 2
-        x: 1076
-        y: 916
-        width: 31
-        height: 59
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -866,12 +866,12 @@ TextureImporter:
       name: StrafeRight_13
       rect:
         serializedVersion: 2
-        x: 1204
-        y: 916
-        width: 31
-        height: 59
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -888,12 +888,12 @@ TextureImporter:
       name: StrafeRight_14
       rect:
         serializedVersion: 2
-        x: 1332
-        y: 916
-        width: 30
-        height: 58
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -910,12 +910,12 @@ TextureImporter:
       name: StrafeRight_15
       rect:
         serializedVersion: 2
-        x: 1460
-        y: 916
-        width: 30
-        height: 58
+        x: 0
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -932,12 +932,12 @@ TextureImporter:
       name: StrafeRight_16
       rect:
         serializedVersion: 2
-        x: 1588
-        y: 916
-        width: 30
-        height: 58
+        x: 128
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -954,12 +954,12 @@ TextureImporter:
       name: StrafeRight_17
       rect:
         serializedVersion: 2
-        x: 1717
-        y: 915
-        width: 28
-        height: 59
+        x: 256
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -976,12 +976,12 @@ TextureImporter:
       name: StrafeRight_18
       rect:
         serializedVersion: 2
-        x: 1846
-        y: 914
-        width: 27
-        height: 61
+        x: 384
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -998,12 +998,12 @@ TextureImporter:
       name: StrafeRight_19
       rect:
         serializedVersion: 2
-        x: 48
-        y: 791
-        width: 33
-        height: 57
+        x: 512
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1020,12 +1020,12 @@ TextureImporter:
       name: StrafeRight_20
       rect:
         serializedVersion: 2
-        x: 176
-        y: 791
-        width: 32
-        height: 57
+        x: 640
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1042,12 +1042,12 @@ TextureImporter:
       name: StrafeRight_21
       rect:
         serializedVersion: 2
-        x: 304
-        y: 791
-        width: 33
-        height: 57
+        x: 768
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1064,12 +1064,12 @@ TextureImporter:
       name: StrafeRight_22
       rect:
         serializedVersion: 2
-        x: 432
-        y: 792
-        width: 33
-        height: 55
+        x: 896
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1086,12 +1086,12 @@ TextureImporter:
       name: StrafeRight_23
       rect:
         serializedVersion: 2
-        x: 560
-        y: 800
-        width: 33
-        height: 47
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1108,12 +1108,12 @@ TextureImporter:
       name: StrafeRight_24
       rect:
         serializedVersion: 2
-        x: 688
-        y: 792
-        width: 32
-        height: 55
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1130,12 +1130,12 @@ TextureImporter:
       name: StrafeRight_25
       rect:
         serializedVersion: 2
-        x: 815
-        y: 792
-        width: 9
-        height: 12
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1152,12 +1152,12 @@ TextureImporter:
       name: StrafeRight_26
       rect:
         serializedVersion: 2
-        x: 816
-        y: 802
-        width: 30
-        height: 46
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1174,12 +1174,12 @@ TextureImporter:
       name: StrafeRight_27
       rect:
         serializedVersion: 2
-        x: 942
-        y: 792
-        width: 31
-        height: 56
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1196,12 +1196,12 @@ TextureImporter:
       name: StrafeRight_28
       rect:
         serializedVersion: 2
-        x: 1069
-        y: 792
-        width: 10
-        height: 10
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1218,12 +1218,12 @@ TextureImporter:
       name: StrafeRight_29
       rect:
         serializedVersion: 2
-        x: 1072
-        y: 800
-        width: 29
-        height: 49
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1240,12 +1240,12 @@ TextureImporter:
       name: StrafeRight_30
       rect:
         serializedVersion: 2
-        x: 1197
-        y: 792
-        width: 32
-        height: 57
+        x: 0
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1262,12 +1262,12 @@ TextureImporter:
       name: StrafeRight_31
       rect:
         serializedVersion: 2
-        x: 1326
-        y: 792
-        width: 9
-        height: 10
+        x: 128
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1284,12 +1284,12 @@ TextureImporter:
       name: StrafeRight_32
       rect:
         serializedVersion: 2
-        x: 1328
-        y: 800
-        width: 29
-        height: 49
+        x: 256
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1306,12 +1306,12 @@ TextureImporter:
       name: StrafeRight_33
       rect:
         serializedVersion: 2
-        x: 1454
-        y: 791
-        width: 33
-        height: 57
+        x: 384
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1328,12 +1328,12 @@ TextureImporter:
       name: StrafeRight_34
       rect:
         serializedVersion: 2
-        x: 1582
-        y: 790
-        width: 35
-        height: 58
+        x: 512
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1350,12 +1350,12 @@ TextureImporter:
       name: StrafeRight_35
       rect:
         serializedVersion: 2
-        x: 1709
-        y: 789
-        width: 34
-        height: 59
+        x: 640
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1372,12 +1372,12 @@ TextureImporter:
       name: StrafeRight_36
       rect:
         serializedVersion: 2
-        x: 1837
-        y: 789
-        width: 34
-        height: 59
+        x: 768
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1394,12 +1394,12 @@ TextureImporter:
       name: StrafeRight_37
       rect:
         serializedVersion: 2
-        x: 560
-        y: 792
-        width: 9
-        height: 9
+        x: 896
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1416,12 +1416,12 @@ TextureImporter:
       name: StrafeRight_38
       rect:
         serializedVersion: 2
-        x: 33
-        y: 675
-        width: 41
-        height: 48
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1438,12 +1438,12 @@ TextureImporter:
       name: StrafeRight_39
       rect:
         serializedVersion: 2
-        x: 161
-        y: 675
-        width: 42
-        height: 49
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1460,12 +1460,12 @@ TextureImporter:
       name: StrafeRight_40
       rect:
         serializedVersion: 2
-        x: 289
-        y: 675
-        width: 42
-        height: 48
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1482,12 +1482,12 @@ TextureImporter:
       name: StrafeRight_41
       rect:
         serializedVersion: 2
-        x: 418
-        y: 675
-        width: 45
-        height: 47
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1504,12 +1504,12 @@ TextureImporter:
       name: StrafeRight_42
       rect:
         serializedVersion: 2
-        x: 545
-        y: 675
-        width: 49
-        height: 47
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1526,12 +1526,12 @@ TextureImporter:
       name: StrafeRight_43
       rect:
         serializedVersion: 2
-        x: 674
-        y: 675
-        width: 48
-        height: 47
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1548,12 +1548,12 @@ TextureImporter:
       name: StrafeRight_44
       rect:
         serializedVersion: 2
-        x: 801
-        y: 674
-        width: 44
-        height: 48
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1570,12 +1570,12 @@ TextureImporter:
       name: StrafeRight_45
       rect:
         serializedVersion: 2
-        x: 928
-        y: 674
-        width: 41
-        height: 49
+        x: 0
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1592,12 +1592,12 @@ TextureImporter:
       name: StrafeRight_46
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 674
-        width: 41
-        height: 50
+        x: 128
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1614,12 +1614,12 @@ TextureImporter:
       name: StrafeRight_47
       rect:
         serializedVersion: 2
-        x: 1183
-        y: 674
-        width: 43
-        height: 50
+        x: 256
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1636,12 +1636,12 @@ TextureImporter:
       name: StrafeRight_48
       rect:
         serializedVersion: 2
-        x: 1311
-        y: 674
-        width: 46
-        height: 49
+        x: 384
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1658,12 +1658,12 @@ TextureImporter:
       name: StrafeRight_49
       rect:
         serializedVersion: 2
-        x: 1439
-        y: 675
-        width: 49
-        height: 47
+        x: 512
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1680,12 +1680,12 @@ TextureImporter:
       name: StrafeRight_50
       rect:
         serializedVersion: 2
-        x: 1567
-        y: 675
-        width: 50
-        height: 47
+        x: 640
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1702,12 +1702,12 @@ TextureImporter:
       name: StrafeRight_51
       rect:
         serializedVersion: 2
-        x: 1693
-        y: 675
-        width: 49
-        height: 48
+        x: 768
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1724,12 +1724,12 @@ TextureImporter:
       name: StrafeRight_52
       rect:
         serializedVersion: 2
-        x: 1820
-        y: 675
-        width: 46
-        height: 48
+        x: 896
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1746,12 +1746,12 @@ TextureImporter:
       name: StrafeRight_53
       rect:
         serializedVersion: 2
-        x: 36
-        y: 564
-        width: 12
-        height: 7
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1768,12 +1768,12 @@ TextureImporter:
       name: StrafeRight_54
       rect:
         serializedVersion: 2
-        x: 39
-        y: 548
-        width: 35
-        height: 56
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1790,12 +1790,12 @@ TextureImporter:
       name: StrafeRight_55
       rect:
         serializedVersion: 2
-        x: 164
-        y: 564
-        width: 12
-        height: 7
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1812,12 +1812,12 @@ TextureImporter:
       name: StrafeRight_56
       rect:
         serializedVersion: 2
-        x: 168
-        y: 548
-        width: 34
-        height: 57
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1834,12 +1834,12 @@ TextureImporter:
       name: StrafeRight_57
       rect:
         serializedVersion: 2
-        x: 292
-        y: 547
-        width: 39
-        height: 57
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1856,12 +1856,12 @@ TextureImporter:
       name: StrafeRight_58
       rect:
         serializedVersion: 2
-        x: 420
-        y: 564
-        width: 12
-        height: 7
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1878,12 +1878,12 @@ TextureImporter:
       name: StrafeRight_59
       rect:
         serializedVersion: 2
-        x: 424
-        y: 548
-        width: 38
-        height: 55
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1900,12 +1900,12 @@ TextureImporter:
       name: StrafeRight_60
       rect:
         serializedVersion: 2
-        x: 549
-        y: 564
-        width: 11
-        height: 7
+        x: 0
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1922,12 +1922,12 @@ TextureImporter:
       name: StrafeRight_61
       rect:
         serializedVersion: 2
-        x: 553
-        y: 548
-        width: 40
-        height: 55
+        x: 128
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1944,12 +1944,12 @@ TextureImporter:
       name: StrafeRight_62
       rect:
         serializedVersion: 2
-        x: 677
-        y: 549
-        width: 44
-        height: 54
+        x: 256
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1966,12 +1966,12 @@ TextureImporter:
       name: StrafeRight_63
       rect:
         serializedVersion: 2
-        x: 805
-        y: 564
-        width: 14
-        height: 8
+        x: 384
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1988,12 +1988,12 @@ TextureImporter:
       name: StrafeRight_64
       rect:
         serializedVersion: 2
-        x: 810
-        y: 549
-        width: 36
-        height: 55
+        x: 512
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2010,12 +2010,12 @@ TextureImporter:
       name: StrafeRight_65
       rect:
         serializedVersion: 2
-        x: 933
-        y: 550
-        width: 37
-        height: 56
+        x: 640
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2032,12 +2032,12 @@ TextureImporter:
       name: StrafeRight_66
       rect:
         serializedVersion: 2
-        x: 1061
-        y: 550
-        width: 37
-        height: 56
+        x: 768
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2054,12 +2054,12 @@ TextureImporter:
       name: StrafeRight_67
       rect:
         serializedVersion: 2
-        x: 1189
-        y: 550
-        width: 37
-        height: 56
+        x: 896
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2076,12 +2076,12 @@ TextureImporter:
       name: StrafeRight_68
       rect:
         serializedVersion: 2
-        x: 1317
-        y: 551
-        width: 37
-        height: 54
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2098,12 +2098,12 @@ TextureImporter:
       name: StrafeRight_69
       rect:
         serializedVersion: 2
-        x: 1444
-        y: 549
-        width: 39
-        height: 54
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2120,12 +2120,12 @@ TextureImporter:
       name: StrafeRight_70
       rect:
         serializedVersion: 2
-        x: 1571
-        y: 549
-        width: 39
-        height: 53
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2142,12 +2142,12 @@ TextureImporter:
       name: StrafeRight_71
       rect:
         serializedVersion: 2
-        x: 1697
-        y: 550
-        width: 40
-        height: 53
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2164,12 +2164,12 @@ TextureImporter:
       name: StrafeRight_72
       rect:
         serializedVersion: 2
-        x: 1824
-        y: 550
-        width: 41
-        height: 54
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2186,12 +2186,12 @@ TextureImporter:
       name: StrafeRight_73
       rect:
         serializedVersion: 2
-        x: 51
-        y: 425
-        width: 29
-        height: 60
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2208,12 +2208,12 @@ TextureImporter:
       name: StrafeRight_74
       rect:
         serializedVersion: 2
-        x: 180
-        y: 424
-        width: 28
-        height: 50
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2230,12 +2230,12 @@ TextureImporter:
       name: StrafeRight_75
       rect:
         serializedVersion: 2
-        x: 184
-        y: 473
-        width: 10
-        height: 14
+        x: 0
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2252,12 +2252,12 @@ TextureImporter:
       name: StrafeRight_76
       rect:
         serializedVersion: 2
-        x: 307
-        y: 424
-        width: 28
-        height: 62
+        x: 128
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2274,12 +2274,12 @@ TextureImporter:
       name: StrafeRight_77
       rect:
         serializedVersion: 2
-        x: 435
-        y: 422
-        width: 28
-        height: 63
+        x: 256
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2296,12 +2296,12 @@ TextureImporter:
       name: StrafeRight_78
       rect:
         serializedVersion: 2
-        x: 563
-        y: 421
-        width: 28
-        height: 63
+        x: 384
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2318,12 +2318,12 @@ TextureImporter:
       name: StrafeRight_79
       rect:
         serializedVersion: 2
-        x: 691
-        y: 421
-        width: 28
-        height: 63
+        x: 512
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2340,12 +2340,12 @@ TextureImporter:
       name: StrafeRight_80
       rect:
         serializedVersion: 2
-        x: 818
-        y: 422
-        width: 30
-        height: 62
+        x: 640
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2362,12 +2362,12 @@ TextureImporter:
       name: StrafeRight_81
       rect:
         serializedVersion: 2
-        x: 946
-        y: 426
-        width: 31
-        height: 47
+        x: 768
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2384,12 +2384,12 @@ TextureImporter:
       name: StrafeRight_82
       rect:
         serializedVersion: 2
-        x: 955
-        y: 472
-        width: 9
-        height: 14
+        x: 896
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2406,12 +2406,12 @@ TextureImporter:
       name: StrafeRight_83
       rect:
         serializedVersion: 2
-        x: 1074
-        y: 426
-        width: 31
-        height: 61
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2428,12 +2428,12 @@ TextureImporter:
       name: StrafeRight_84
       rect:
         serializedVersion: 2
-        x: 1202
-        y: 425
-        width: 31
-        height: 60
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2450,12 +2450,12 @@ TextureImporter:
       name: StrafeRight_85
       rect:
         serializedVersion: 2
-        x: 1331
-        y: 423
-        width: 30
-        height: 62
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2472,12 +2472,12 @@ TextureImporter:
       name: StrafeRight_86
       rect:
         serializedVersion: 2
-        x: 1459
-        y: 421
-        width: 29
-        height: 63
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2494,12 +2494,12 @@ TextureImporter:
       name: StrafeRight_87
       rect:
         serializedVersion: 2
-        x: 1587
-        y: 421
-        width: 29
-        height: 62
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2516,12 +2516,12 @@ TextureImporter:
       name: StrafeRight_88
       rect:
         serializedVersion: 2
-        x: 1721
-        y: 471
-        width: 9
-        height: 13
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2538,12 +2538,12 @@ TextureImporter:
       name: StrafeRight_89
       rect:
         serializedVersion: 2
-        x: 1844
-        y: 426
-        width: 27
-        height: 47
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2560,12 +2560,12 @@ TextureImporter:
       name: StrafeRight_90
       rect:
         serializedVersion: 2
-        x: 1848
-        y: 472
-        width: 10
-        height: 14
+        x: 0
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2582,12 +2582,12 @@ TextureImporter:
       name: StrafeRight_91
       rect:
         serializedVersion: 2
-        x: 1715
-        y: 423
-        width: 29
-        height: 49
+        x: 128
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2604,12 +2604,12 @@ TextureImporter:
       name: StrafeRight_92
       rect:
         serializedVersion: 2
-        x: 53
-        y: 297
-        width: 32
-        height: 60
+        x: 256
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2626,12 +2626,12 @@ TextureImporter:
       name: StrafeRight_93
       rect:
         serializedVersion: 2
-        x: 180
-        y: 297
-        width: 33
-        height: 60
+        x: 384
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2648,12 +2648,12 @@ TextureImporter:
       name: StrafeRight_94
       rect:
         serializedVersion: 2
-        x: 308
-        y: 296
-        width: 33
-        height: 49
+        x: 512
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2670,12 +2670,12 @@ TextureImporter:
       name: StrafeRight_95
       rect:
         serializedVersion: 2
-        x: 330
-        y: 334
-        width: 8
-        height: 23
+        x: 640
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2692,12 +2692,12 @@ TextureImporter:
       name: StrafeRight_96
       rect:
         serializedVersion: 2
-        x: 436
-        y: 295
-        width: 33
-        height: 49
+        x: 768
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2714,12 +2714,12 @@ TextureImporter:
       name: StrafeRight_97
       rect:
         serializedVersion: 2
-        x: 458
-        y: 340
-        width: 8
-        height: 16
+        x: 896
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2736,12 +2736,12 @@ TextureImporter:
       name: StrafeRight_98
       rect:
         serializedVersion: 2
-        x: 565
-        y: 294
-        width: 32
-        height: 49
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2758,12 +2758,12 @@ TextureImporter:
       name: StrafeRight_99
       rect:
         serializedVersion: 2
-        x: 585
-        y: 339
-        width: 9
-        height: 16
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2780,12 +2780,12 @@ TextureImporter:
       name: StrafeRight_100
       rect:
         serializedVersion: 2
-        x: 693
-        y: 292
-        width: 32
-        height: 63
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2802,12 +2802,12 @@ TextureImporter:
       name: StrafeRight_101
       rect:
         serializedVersion: 2
-        x: 822
-        y: 294
-        width: 33
-        height: 50
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2824,12 +2824,12 @@ TextureImporter:
       name: StrafeRight_102
       rect:
         serializedVersion: 2
-        x: 842
-        y: 339
-        width: 9
-        height: 16
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2846,12 +2846,12 @@ TextureImporter:
       name: StrafeRight_103
       rect:
         serializedVersion: 2
-        x: 951
-        y: 297
-        width: 32
-        height: 59
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2868,12 +2868,12 @@ TextureImporter:
       name: StrafeRight_104
       rect:
         serializedVersion: 2
-        x: 1079
-        y: 297
-        width: 34
-        height: 49
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2890,12 +2890,12 @@ TextureImporter:
       name: StrafeRight_105
       rect:
         serializedVersion: 2
-        x: 1099
-        y: 339
-        width: 9
-        height: 17
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2912,12 +2912,12 @@ TextureImporter:
       name: StrafeRight_106
       rect:
         serializedVersion: 2
-        x: 1207
-        y: 297
-        width: 34
-        height: 49
+        x: 128
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2934,12 +2934,12 @@ TextureImporter:
       name: StrafeRight_107
       rect:
         serializedVersion: 2
-        x: 1227
-        y: 330
-        width: 9
-        height: 26
+        x: 256
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2956,12 +2956,12 @@ TextureImporter:
       name: StrafeRight_108
       rect:
         serializedVersion: 2
-        x: 1335
-        y: 297
-        width: 33
-        height: 48
+        x: 384
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2978,12 +2978,12 @@ TextureImporter:
       name: StrafeRight_109
       rect:
         serializedVersion: 2
-        x: 1354
-        y: 338
-        width: 9
-        height: 17
+        x: 512
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3000,12 +3000,12 @@ TextureImporter:
       name: StrafeRight_110
       rect:
         serializedVersion: 2
-        x: 1461
-        y: 297
-        width: 34
-        height: 47
+        x: 640
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3022,12 +3022,12 @@ TextureImporter:
       name: StrafeRight_111
       rect:
         serializedVersion: 2
-        x: 1481
-        y: 338
-        width: 9
-        height: 16
+        x: 768
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3044,12 +3044,12 @@ TextureImporter:
       name: StrafeRight_112
       rect:
         serializedVersion: 2
-        x: 1587
-        y: 297
-        width: 36
-        height: 46
+        x: 896
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3066,12 +3066,12 @@ TextureImporter:
       name: StrafeRight_113
       rect:
         serializedVersion: 2
-        x: 1609
-        y: 338
-        width: 9
-        height: 16
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3088,12 +3088,12 @@ TextureImporter:
       name: StrafeRight_114
       rect:
         serializedVersion: 2
-        x: 1717
-        y: 298
-        width: 35
-        height: 57
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3110,12 +3110,12 @@ TextureImporter:
       name: StrafeRight_115
       rect:
         serializedVersion: 2
-        x: 1846
-        y: 298
-        width: 35
-        height: 58
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3132,12 +3132,12 @@ TextureImporter:
       name: StrafeRight_116
       rect:
         serializedVersion: 2
-        x: 59
-        y: 164
-        width: 41
-        height: 54
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3154,12 +3154,12 @@ TextureImporter:
       name: StrafeRight_117
       rect:
         serializedVersion: 2
-        x: 187
-        y: 164
-        width: 41
-        height: 51
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3176,12 +3176,12 @@ TextureImporter:
       name: StrafeRight_118
       rect:
         serializedVersion: 2
-        x: 208
-        y: 197
-        width: 15
-        height: 21
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3198,12 +3198,12 @@ TextureImporter:
       name: StrafeRight_119
       rect:
         serializedVersion: 2
-        x: 313
-        y: 164
-        width: 43
-        height: 54
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3216,781 +3216,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: StrafeRight_120
-      rect:
-        serializedVersion: 2
-        x: 437
-        y: 164
-        width: 42
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 95d3a48f1c351c8e0800000000000000
-      internalID: -1674965493845705383
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_121
-      rect:
-        serializedVersion: 2
-        x: 562
-        y: 165
-        width: 50
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2e40d5dff605ece30800000000000000
-      internalID: 4525643117476250850
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_122
-      rect:
-        serializedVersion: 2
-        x: 691
-        y: 165
-        width: 49
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 639d188448e3a6620800000000000000
-      internalID: 2768093658845665590
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_123
-      rect:
-        serializedVersion: 2
-        x: 721
-        y: 200
-        width: 13
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5ad05f817f6ddc2c0800000000000000
-      internalID: -4409632103361868379
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_124
-      rect:
-        serializedVersion: 2
-        x: 823
-        y: 164
-        width: 45
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8eb52e73571da5cf0800000000000000
-      internalID: -262667326868792344
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_125
-      rect:
-        serializedVersion: 2
-        x: 955
-        y: 164
-        width: 43
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d77ab5222f8df7890800000000000000
-      internalID: -7458003923432134787
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_126
-      rect:
-        serializedVersion: 2
-        x: 1083
-        y: 164
-        width: 43
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 28874f78d5dcf7720800000000000000
-      internalID: 2846219291118041218
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_127
-      rect:
-        serializedVersion: 2
-        x: 1210
-        y: 163
-        width: 44
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9dd53adc94e2f8200800000000000000
-      internalID: 184417004263005657
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_128
-      rect:
-        serializedVersion: 2
-        x: 1233
-        y: 200
-        width: 13
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6ebca91cc648bc3c0800000000000000
-      internalID: -4338228213401859098
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_129
-      rect:
-        serializedVersion: 2
-        x: 1335
-        y: 164
-        width: 46
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 506b472ee9032bec0800000000000000
-      internalID: -3552723697079634427
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_130
-      rect:
-        serializedVersion: 2
-        x: 1361
-        y: 200
-        width: 13
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 19419e080f780e1d0800000000000000
-      internalID: -3323507057974766447
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_131
-      rect:
-        serializedVersion: 2
-        x: 1460
-        y: 164
-        width: 49
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0b3e14e1005c939a0800000000000000
-      internalID: -6252750003328916560
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_132
-      rect:
-        serializedVersion: 2
-        x: 1587
-        y: 164
-        width: 51
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9de414fdd501aea90800000000000000
-      internalID: -7283991451954753831
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_133
-      rect:
-        serializedVersion: 2
-        x: 1617
-        y: 199
-        width: 13
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 326625dd7819b1a20800000000000000
-      internalID: 3034178786683938339
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_134
-      rect:
-        serializedVersion: 2
-        x: 1718
-        y: 164
-        width: 50
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 362872128f93dd510800000000000000
-      internalID: 1575479182520451683
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_135
-      rect:
-        serializedVersion: 2
-        x: 1850
-        y: 164
-        width: 47
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3c37b943a52c11310800000000000000
-      internalID: 1374093054010160067
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_136
-      rect:
-        serializedVersion: 2
-        x: 471
-        y: 175
-        width: 12
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7eb08804e65b68e80800000000000000
-      internalID: -8176648588310869017
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_137
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 32
-        width: 38
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d87e37fb45d60bd10800000000000000
-      internalID: 2139330033757710221
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_138
-      rect:
-        serializedVersion: 2
-        x: 187
-        y: 33
-        width: 34
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f7892e3097b9ccbd0800000000000000
-      internalID: -2608539140095829889
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_139
-      rect:
-        serializedVersion: 2
-        x: 213
-        y: 32
-        width: 12
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6897448dbc17561d0800000000000000
-      internalID: -3358152826814170746
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_140
-      rect:
-        serializedVersion: 2
-        x: 313
-        y: 32
-        width: 41
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3f3c8443453498ea0800000000000000
-      internalID: -5870086610367233037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_141
-      rect:
-        serializedVersion: 2
-        x: 438
-        y: 32
-        width: 44
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 56dc1f116057d9250800000000000000
-      internalID: 5953042951384976741
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_142
-      rect:
-        serializedVersion: 2
-        x: 563
-        y: 33
-        width: 41
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f067bd80a81dcb120800000000000000
-      internalID: 2431048289657517583
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_143
-      rect:
-        serializedVersion: 2
-        x: 594
-        y: 32
-        width: 15
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 57cb252ca2deeb8c0800000000000000
-      internalID: -3981484252644328331
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_144
-      rect:
-        serializedVersion: 2
-        x: 691
-        y: 33
-        width: 40
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b6d1e9409bd8813d0800000000000000
-      internalID: -3235680506479764117
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_145
-      rect:
-        serializedVersion: 2
-        x: 724
-        y: 32
-        width: 12
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a956734dded1324a0800000000000000
-      internalID: -6619414119999642214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_146
-      rect:
-        serializedVersion: 2
-        x: 822
-        y: 31
-        width: 42
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 16ac20ba41f473ce0800000000000000
-      internalID: -1425583806852445599
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_147
-      rect:
-        serializedVersion: 2
-        x: 954
-        y: 30
-        width: 38
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f9061d70741abb580800000000000000
-      internalID: -8810270919574331233
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_148
-      rect:
-        serializedVersion: 2
-        x: 1083
-        y: 30
-        width: 37
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 653a7f6e248bd7820800000000000000
-      internalID: 2917690731088290646
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_149
-      rect:
-        serializedVersion: 2
-        x: 1210
-        y: 30
-        width: 39
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 01413e9ca80852dd0800000000000000
-      internalID: -2511459883608239088
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_150
-      rect:
-        serializedVersion: 2
-        x: 1338
-        y: 30
-        width: 38
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00840566f91498e50800000000000000
-      internalID: 6812048064246728704
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_151
-      rect:
-        serializedVersion: 2
-        x: 1465
-        y: 31
-        width: 40
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cd3068839959a8b30800000000000000
-      internalID: 4290406080334660572
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_152
-      rect:
-        serializedVersion: 2
-        x: 1594
-        y: 31
-        width: 40
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 37e8380325efb2150800000000000000
-      internalID: 5849048170025422451
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_153
-      rect:
-        serializedVersion: 2
-        x: 1723
-        y: 30
-        width: 41
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: edb3c2fc1b9744f90800000000000000
-      internalID: -6970312518670730274
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StrafeRight_154
-      rect:
-        serializedVersion: 2
-        x: 1851
-        y: 30
-        width: 42
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e1fc748103b5cae30800000000000000
-      internalID: 4516084788469681950
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2e876114a3d662a4fbf392b052629af7
     internalID: 0
     vertices: []
     indices: 
@@ -3998,7 +3228,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       StrafeRight_0: 4802941659945180339
       StrafeRight_1: 1779455849636083516
@@ -4025,44 +3257,9 @@ TextureImporter:
       StrafeRight_118: -5362441140380365439
       StrafeRight_119: 7416669566856127357
       StrafeRight_12: -5563228533044491049
-      StrafeRight_120: -1674965493845705383
-      StrafeRight_121: 4525643117476250850
-      StrafeRight_122: 2768093658845665590
-      StrafeRight_123: -4409632103361868379
-      StrafeRight_124: -262667326868792344
-      StrafeRight_125: -7458003923432134787
-      StrafeRight_126: 2846219291118041218
-      StrafeRight_127: 184417004263005657
-      StrafeRight_128: -4338228213401859098
-      StrafeRight_129: -3552723697079634427
       StrafeRight_13: 7056145657397020991
-      StrafeRight_130: -3323507057974766447
-      StrafeRight_131: -6252750003328916560
-      StrafeRight_132: -7283991451954753831
-      StrafeRight_133: 3034178786683938339
-      StrafeRight_134: 1575479182520451683
-      StrafeRight_135: 1374093054010160067
-      StrafeRight_136: -8176648588310869017
-      StrafeRight_137: 2139330033757710221
-      StrafeRight_138: -2608539140095829889
-      StrafeRight_139: -3358152826814170746
       StrafeRight_14: -8529653347289252494
-      StrafeRight_140: -5870086610367233037
-      StrafeRight_141: 5953042951384976741
-      StrafeRight_142: 2431048289657517583
-      StrafeRight_143: -3981484252644328331
-      StrafeRight_144: -3235680506479764117
-      StrafeRight_145: -6619414119999642214
-      StrafeRight_146: -1425583806852445599
-      StrafeRight_147: -8810270919574331233
-      StrafeRight_148: 2917690731088290646
-      StrafeRight_149: -2511459883608239088
       StrafeRight_15: 8778378495274795806
-      StrafeRight_150: 6812048064246728704
-      StrafeRight_151: 4290406080334660572
-      StrafeRight_152: 5849048170025422451
-      StrafeRight_153: -6970312518670730274
-      StrafeRight_154: 4516084788469681950
       StrafeRight_16: 6979053630692384458
       StrafeRight_17: -253365959973122830
       StrafeRight_18: 1987504386001946172
