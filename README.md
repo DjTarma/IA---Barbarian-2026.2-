@@ -1,6 +1,5 @@
 # Barbarians - Prova Inteligência Artificial 2026.2
-Projeto desenvolvido por Samuel Santos Figueirêdo e Rafael Girardi
-Universidade Estadual da Bahia (UNEB)
+Projeto desenvolvido por Samuel Santos Figueirêdo e Rafael Girardi para a Universidade Estadual da Bahia (UNEB)
 
 ## Descrição
 Cena 2D com o personagem escolhido através do sorteio em sala,
